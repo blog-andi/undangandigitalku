@@ -7,27 +7,19 @@ export const headerData = {
       links: [
         {
           text: 'Undangan Pernikahan',
-          href: getPermalink('//undangan-pernikahan'),
+          href: getPermalink('tema/undangan-pernikahan'),
         },
         {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
+          text: 'Undangan Ulang Tahun',
+          href: getPermalink('tema/undangan-ulang-tahun'),
         },
         {
-          text: 'About us',
-          href: getPermalink('/about'),
+          text: 'Undangan Aqikah',
+          href: getPermalink('/tema/undangan-aqikah'),
         },
         {
-          text: 'Contact',
-          href: getPermalink('/contact'),
-        },
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
+          text: 'Undangan Khitanan',
+          href: getPermalink('/tema/undangan-khitanan'),
         },
         {
           text: 'Features (Anchor Link)',
@@ -36,36 +28,32 @@ export const headerData = {
       ],
     },
     {
-      text: 'Landing',
+      text: 'Menu',
       links: [
         {
-          text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
+          text: 'Pricing',
+          href: getPermalink('/landing/pricing'),
         },
         {
-          text: 'Long-form Sales',
-          href: getPermalink('/landing/sales'),
+          text: 'About',
+          href: getPermalink('/landing/about'),
         },
         {
-          text: 'Click-Through',
-          href: getPermalink('/landing/click-through'),
+          text: 'Contact',
+          href: getPermalink('/landing/contact'),
         },
         {
-          text: 'Product Details (or Services)',
-          href: getPermalink('/landing/product'),
+          text: 'Privacy',
+          href: getPermalink('/landing/privacy'),
         },
         {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
+          text: 'Term',
+          href: getPermalink('/landing/term'),
         },
       ],
     },
     {
-      text: 'Blog',
+      text: 'Reading',
       links: [
         {
           text: 'Blog List',
@@ -73,7 +61,7 @@ export const headerData = {
         },
         {
           text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
+          href: getPermalink('kelebihan-undangan-digital-dibanding-undangan-cetak', 'post'),
         },
         {
           text: 'Article (with MDX)',
@@ -90,7 +78,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Tanya2 di Whatsapp',
+      text: 'Nanya2 Dulu',
       href: 'https://wa.me/6289519865963',
     },
   ],
