@@ -9,9 +9,9 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Undangan Digital Pekanbaru 
+    default: Undangan Digital Pekanbaru
     template: '%s — Undangan Digital Pekanbaru'
-  description: "\U0001F680 Undangan Digital Pekanbaru, Jasa Undangan Digital Pekanbaru, Wedsite Undangan, Undangan Link."
+  description: "\U0001F680 Undangan Digital Pekanbaru, Jasa Undangan Digital Pekanbaru, Website Undangan, Undangan Link."
   robots:
     index: false
     follow: false

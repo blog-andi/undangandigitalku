@@ -111,11 +111,11 @@ export const headerData = {
       ],
     },
     {
-      text: 'Widgets',
-      href: '#',
+      text: 'Tanya2 di Whatsapp',
+      href: 'https://wa.me/6289519865963',
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/arthelokyo/astrowind', target: '_blank' }],
+  actions: [],
 };
 
 export const footerData = {
