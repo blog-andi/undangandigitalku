@@ -6,12 +6,8 @@ export const headerData = {
       text: 'Pages',
       links: [
         {
-          text: 'Features (Anchor Link)',
-          href: getPermalink('/#features'),
-        },
-        {
-          text: 'Services',
-          href: getPermalink('/services'),
+          text: 'Undangan Pernikahan',
+          href: getPermalink('//undangan-pernikahan'),
         },
         {
           text: 'Pricing',
@@ -32,6 +28,10 @@ export const headerData = {
         {
           text: 'Privacy policy',
           href: getPermalink('/privacy'),
+        },
+        {
+          text: 'Features (Anchor Link)',
+          href: getPermalink('/#features'),
         },
       ],
     },
