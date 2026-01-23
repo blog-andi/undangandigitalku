@@ -47,8 +47,8 @@ export const headerData = {
           href: getPermalink('/landing/privacy'),
         },
         {
-          text: 'Term',
-          href: getPermalink('/landing/term'),
+          text: 'Terms',
+          href: getPermalink('/landing/terms'),
         },
       ],
     },
