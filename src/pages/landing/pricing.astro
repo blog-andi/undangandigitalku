@@ -8,42 +8,38 @@ import Features3 from '~/components/widgets/Features3.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Pricing',
+  title: 'Harga Undangan Digital',
 };
 ---
 
 <Layout metadata={metadata}>
-  <!-- HeroText Widget ******************* -->
-
   <HeroText
     tagline="Pricing"
-    title="Stellar Pricing for Every Journey"
-    subtitle="Choose the perfect plan that aligns with your cosmic goals."
+    title="Paket Harga Undangan Digital Terbaik"
+    subtitle="Pilih paket yang paling sesuai untuk merayakan momen spesial dan perjalanan cinta Anda."
   />
 
-  <!-- Pricing Widget ******************* -->
-
   <Prices
-    title="Our prices"
-    subtitle="Only pay for what you need"
+    title="Daftar Harga"
+    subtitle="Investasi sekali bayar untuk kenangan selamanya"
     prices={[
       {
         title: 'basic',
-        subtitle: 'Optimal choice for personal use',
-        price: 29,
-        period: 'per month',
+        subtitle: 'Pilihan tepat untuk acara intim',
+        price: 99,
+        period: 'per project',
         items: [
           {
-            description: 'Etiam in libero, et volutpat',
+            description: 'Masa aktif undangan 3 bulan',
           },
           {
-            description: 'Aenean ac nunc dolor tristique',
+            description: 'Fitur RSVP & Buku Tamu',
           },
           {
-            description: 'Cras scelerisque accumsan lib',
+            description: 'Integrasi Google Maps Lokasi',
           },
           {
-            description: 'In hac habitasse',
+            description: 'Galeri maksimal 5 foto',
           },
         ],
         callToAction: {
@@ -54,24 +50,24 @@ const metadata = {
       },
       {
         title: 'standard',
-        subtitle: 'Optimal choice for small teams',
-        price: 69,
-        period: 'Per Month',
+        subtitle: 'Pilihan populer para calon mempelai',
+        price: 149,
+        period: 'per project',
         items: [
           {
-            description: 'Proin vel laoreet',
+            description: 'Masa aktif undangan 1 tahun',
           },
           {
-            description: 'Ut efficitur habitasse egestas',
+            description: 'Unlimited Nama Tamu (WA Sender)',
           },
           {
-            description: 'Volutpat hac curabitur',
+            description: 'Fitur Kirim Kado & Angpao Digital',
           },
           {
-            description: 'Pellentesque blandit ut nibh',
+            description: 'Background Music & Love Story',
           },
           {
-            description: 'Donec fringilla sem',
+            description: 'Galeri foto & Video (Unlimited)',
           },
         ],
         callToAction: {
@@ -84,21 +80,21 @@ const metadata = {
       },
       {
         title: 'premium',
-        subtitle: 'Optimal choice for companies',
-        price: 199,
-        period: 'Per Month',
+        subtitle: 'Eksklusif dengan fitur terlengkap',
+        price: 299,
+        period: 'per project',
         items: [
           {
-            description: 'Curabitur suscipit risus',
+            description: 'Masa aktif selamanya (Lifetime)',
           },
           {
-            description: 'Aliquam habitasse malesuada',
+            description: 'Custom Domain (nama-pasangan.com)',
           },
           {
-            description: 'Suspendisse sit amet blandit',
+            description: 'Filter Instagram Wedding Custom',
           },
           {
-            description: 'Suspendisse auctor blandit dui',
+            description: 'Prioritas revisi & bantuan admin',
           },
         ],
         callToAction: {
@@ -110,51 +106,47 @@ const metadata = {
     ]}
   />
 
-  <!-- Features3 Widget ************** -->
-
   <Features3
-    title="Price-related features"
-    subtitle="Discover the advantages of choosing our plans"
+    title="Fitur Unggulan Kami"
+    subtitle="Temukan kelebihan menggunakan layanan undangan digital kami"
     columns={2}
     items={[
       {
         title: 'Tiered Pricing Plans',
-        description: 'Choose from a range of pricing plans designed to accommodate different budgets and requirements.',
+        description: 'Berbagai pilihan paket harga yang fleksibel sesuai dengan budget dan kebutuhan acara Anda.',
         icon: 'tabler:stairs',
       },
       {
         title: 'Transparent Pricing',
-        description: 'Clearly displayed pricing details for each plan, with no hidden costs or unexpected charges.',
+        description: 'Harga jujur yang tertera adalah total yang Anda bayar tanpa biaya tambahan tersembunyi.',
         icon: 'tabler:flip-vertical',
       },
       {
         title: 'Secure Payment Methods',
-        description: 'Secure payment gateways to protect your financial information during transactions.',
+        description: 'Metode pembayaran aman dan otomatis untuk memastikan transaksi Anda terlindungi.',
         icon: 'tabler:shield-lock',
       },
       {
         title: 'Instant Access',
-        description: `Immediate access to your chosen plan's features and templates upon subscription.`,
+        description: 'Akses langsung ke dashboard editor segera setelah pembayaran Anda terkonfirmasi.',
         icon: 'tabler:accessible',
       },
       {
         title: 'Upgrade Value',
-        description: 'Upgrade to higher-tier plans to unlock more features and benefits for an enhanced experience.',
+        description: 'Kemudahan untuk upgrade ke paket yang lebih tinggi kapan saja sebelum hari H acara.',
         icon: 'tabler:chevrons-up',
       },
       {
         title: '24H support',
-        description: 'Questions answered via live chat, email or phone, every calendar day.',
+        description: 'Tim kami siap membantu menjawab pertanyaan Anda melalui live chat atau WhatsApp setiap hari.',
         icon: 'tabler:headset',
       },
     ]}
     classes={{ container: 'max-w-5xl' }}
   />
 
-  <!-- Steps Widget ****************** -->
-
   <Steps
-    title="A guided journey from plans to creativity"
+    title="Langkah Mudah Menuju Undangan Digital Anda"
     tagline="simplified process"
     isReversed={true}
     items={[
@@ -188,51 +180,46 @@ const metadata = {
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1536816579748-4ecb3f03d72a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Steps image',
+      src: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=987&q=80',
+      alt: 'Wedding Steps Image',
     }}
   />
 
-  <!-- FAQs Widget ******************* -->
-
   <FAQs
-    title="Pricing FAQs"
-    subtitle="Choosing the right plan is important, and we're here to answer your questions. If you have queries about our pricing options, you're in the right place."
+    title="Pertanyaan Seputar Harga"
+    subtitle="Kami merangkum beberapa hal yang sering ditanyakan mengenai biaya dan layanan undangan digital."
     columns={1}
     items={[
       {
         title: 'Do the plans come with customer support?',
         description:
-          'Absolutely, all plans include access to our dedicated customer support to assist you with any queries or concerns.',
+          'Tentu saja, semua paket sudah termasuk akses bantuan tim support kami untuk memastikan undangan Anda sempurna.',
       },
       {
         title: 'Is there a trial period for the different plans?',
         description:
-          "Unfortunately, we don't offer trial periods for the plans. However, you can check out our demo section to preview the quality of our templates.",
+          'Kami tidak menyediakan trial, namun Anda bisa melihat dashboard demo untuk mencoba fitur editor kami secara gratis.',
       },
       {
         title: 'Can I switch between plans?',
-        description:
-          'Certainly! You can easily upgrade or downgrade your plan, at any time, to find the one that best suits your evolving requirements.',
+        description: 'Sangat bisa! Anda dapat melakukan upgrade paket kapan pun dibutuhkan melalui panel akun Anda.',
       },
       {
         title: 'What payment methods do you accept?',
         description:
-          'We accept major credit cards and online payment methods to ensure a convenient and secure transaction process.',
+          'Kami menerima transfer bank, E-Wallet (QRIS), dan metode pembayaran online lainnya yang aman dan cepat.',
       },
       {
         title: 'Are there any hidden fees beyond the displayed cost?',
         description:
-          'No, the subscription cost covers all the features and templates listed under each plan. There are no hidden fees or extra charges.',
+          'Tidak ada biaya tersembunyi. Harga yang tertera sudah mencakup semua fitur yang disebutkan dalam paket tersebut.',
       },
     ]}
   />
 
-  <!-- CallToAction Widget *********** -->
-
   <CallToAction
-    title="Ready to boost your projects?"
-    subtitle="Join our community of satisfied customers who have transformed their work with our templates."
+    title="Siap Berbagi Kebahagiaan?"
+    subtitle="Mulai buat undangan digital elegan Anda sekarang dan bagikan momen spesial Anda kepada semua orang."
     actions={[
       {
         variant: 'primary',
