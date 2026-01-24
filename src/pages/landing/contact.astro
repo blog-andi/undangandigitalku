@@ -5,73 +5,69 @@ import ContactUs from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
-  title: 'Contact',
+  title: 'Kontak Kami',
 };
 ---
 
 <Layout metadata={metadata}>
-  <!-- HeroText Widget ******************* -->
-
-  <HeroText tagline="Contact" title="Let's Connect!" />
+  <HeroText tagline="Kontak" title="Mari Terhubung!" />
 
   <ContactUs
     id="form"
-    title="Drop us a message today!"
-    subtitle="For quicker answers, explore our FAQs section. You may find the solution you're looking  for right there! If not, our support team is delighted to help you."
+    title="Kirimkan pesan kepada kami hari ini!"
+    subtitle="Untuk jawaban yang lebih cepat, silakan jelajahi bagian FAQ kami. Anda mungkin menemukan solusi yang dicari di sana! Jika tidak, tim dukungan kami akan dengan senang hati membantu Anda."
     inputs={[
       {
         type: 'text',
         name: 'name',
-        label: 'Name',
+        label: 'Nama Lengkap',
       },
       {
         type: 'email',
         name: 'email',
-        label: 'Email',
+        label: 'Alamat Email',
       },
     ]}
     textarea={{
-      label: 'Message',
+      label: 'Pesan Anda',
     }}
     disclaimer={{
       label:
-        'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
+        'Dengan mengirimkan formulir kontak ini, Anda mengakui dan menyetujui pengumpulan informasi pribadi Anda untuk keperluan layanan kami.',
     }}
-    description="Our support team typically responds within 24 business hours."
+    description="Tim dukungan kami biasanya memberikan tanggapan dalam waktu 24 jam kerja."
   />
 
-  <!-- Features2 Widget ************** -->
-
   <Features2
-    title="We are here to help!"
+    title="Kami siap membantu Anda!"
     items={[
       {
-        title: 'General support',
-        description: `Chat with us for inquiries related to account management, website navigation, payment issues, accessing purchased templates or general questions about the website's functionality.`,
+        title: 'Dukungan Umum',
+        description: `Hubungi kami untuk pertanyaan terkait manajemen akun, navigasi situs web, masalah pembayaran, cara mengakses templat yang telah dibeli, atau pertanyaan umum mengenai fungsi situs.`,
       },
       {
-        title: 'Contact sales',
+        title: 'Hubungi Penjualan',
         description:
-          'Chat with us for questions about purchases, customization options, licensing for commercial use, inquiries about specific template, etc.',
+          'Hubungi kami untuk pertanyaan seputar pembelian paket, opsi kustomisasi desain, lisensi penggunaan komersial, atau pertanyaan detail mengenai templat tertentu.',
       },
       {
-        title: 'Technical support',
+        title: 'Dukungan Teknis',
         description:
-          'Chat with us when facing issues like template installation, problems editing difficulties, compatibility issues with software or download errors, or other technical challenges related to using the templates.',
+          'Hubungi kami jika Anda menghadapi kendala seperti instalasi templat, kesulitan dalam mengedit, masalah kompatibilitas perangkat lunak, kesalahan unduhan, atau tantangan teknis lainnya.',
       },
       {
-        title: 'Phone',
-        description: '+1 (234) 567-890',
+        title: 'Telepon',
+        description: '+62 (21) 567-890',
         icon: 'tabler:headset',
       },
       {
         title: 'Email',
-        description: 'contact@support.com',
+        description: 'halo@undangandigital.com',
         icon: 'tabler:mail',
       },
       {
-        title: 'Location',
-        description: '1234 Lorem Ipsum St, 12345, Miami, EEUU',
+        title: 'Lokasi Kantor',
+        description: 'Jl. Inspirasi No. 88, Jakarta Selatan, Indonesia',
         icon: 'tabler:map-pin',
       },
     ]}
