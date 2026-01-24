@@ -14,39 +14,36 @@ import Brands from '~/components/widgets/Brands.astro';
 import { YouTube } from 'astro-embed';
 
 const metadata = {
-  title: 'Startup Landing Page',
+  title: 'Undangan Aqiqah Digital - Tasyakuran & Khidmah',
 };
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
-
   <Hero
-    tagline="Startup Web Demo"
+    tagline="Tasyakuran Aqiqah"
     actions={[
       {
         variant: 'primary',
         target: '_blank',
-        text: 'Get templates',
-        href: 'https://github.com/arthelokyo/astrowind',
+        text: 'Pilih Desain Lembut',
+        href: '#',
         icon: 'tabler:download',
       },
-      { text: 'Learn more', href: '#features' },
+      { text: 'Fitur Undangan', href: '#features' },
     ]}
   >
     <Fragment slot="title">
-      Improve <span class="hidden sm:inline">the online presence of</span> your <span
-        class="text-accent dark:text-white">Startup</span
-      > with Astrowind templates
+      Bagikan Kebahagiaan atas <span class="hidden sm:inline">Kelahiran Buah Hati</span> dengan <span
+        class="text-accent dark:text-white">Undangan Aqiqah</span
+      > Digital
     </Fragment>
 
     <Fragment slot="subtitle">
-      Step into the spotlight with <span class="font-semibold">Astrowind</span> templates, your pathway to fortifying your
-      startup's digital footprint, fostering credibility, and expanding your reach.
+      Wujud syukur atas amanah Allah SWT kini lebih mudah dibagikan. Melalui undangan digital yang elegan dan syar'i, undang keluarga serta kerabat untuk mendoakan si kecil dengan cara yang praktis dan berkesan.
     </Fragment>
 
     <Fragment slot="image">
-      <YouTube id="gxBkghlglTg" title="Astro just Launched.... Could it be the ultimate web framework?" />
+      <YouTube id="gxBkghlglTg" title="Cara Membuat Undangan Aqiqah Digital" />
       <style is:inline>
         lite-youtube {
           margin: 0 auto;
@@ -56,99 +53,60 @@ const metadata = {
     </Fragment>
   </Hero>
 
-  <!-- Features2 Widget ************** -->
-
   <Features2
-    title="About us"
-    subtitle="We believe in the magic of turning dreams into stunning realities. Founded by passionate developers with a shared vision, we set out to simplify the website creation process. Our templates bring together the innovation of Astro 5.0 and the versatility of Tailwind CSS, enabling you to express your unique brand identity like never before."
+    title="Tentang Layanan Aqiqah Kami"
+    subtitle="Aqiqah adalah momen sakral sekali seumur hidup untuk putra-putri Anda. Kami hadir membantu para orang tua untuk menyebarkan kabar gembira ini tanpa perlu repot mencetak kertas. Menggunakan teknologi Astro 5.0, undangan tasyakuran Anda akan tampil sangat lembut di mata dan sangat cepat diakses, mencerminkan kesucian momen kelahiran."
   >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Features2>
 
-  <!-- Stats Widget ****************** -->
-
   <Stats
-    title="Discover the impressive impact of Astrowind"
-    subtitle="The numbers below reflect the trust our users have placed in us and the remarkable outcomes we've helped them achieve."
+    title="Amanah yang Telah Kami Bantu Syiarkan"
+    subtitle="Kami bangga telah menjadi bagian dari momen tasyakuran ribuan keluarga Muslim di seluruh Indonesia."
     stats={[
-      { title: 'Downloads', amount: '182K' },
-      { title: 'Websites Launched', amount: '87' },
-      { title: 'User Ratings', amount: '4.8' },
-      { title: 'Satisfied Clients', amount: '116K' },
+      { title: 'Desain Islami', amount: '12K' },
+      { title: 'Tasyakuran Sukses', amount: '74' },
+      { title: 'Rating Kepuasan', amount: '4.9' },
+      { title: 'Doa Terkirim', amount: '150K' },
     ]}
   />
-
-  <!-- Brands Widget ****************** -->
 
   <Brands
-    title="Partnerships & Collaborations"
-    subtitle="At Astrowind, we believe in the power of collaboration to drive innovation and create exceptional experiences."
+    title="Metode Pembayaran & Keamanan"
+    subtitle="Proses transaksi yang aman dan mudah sehingga Ayah & Bunda bisa fokus mempersiapkan pelaksanaan Aqiqah si kecil."
     icons={[]}
     images={[
-      {
-        src: 'https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404_1280.png',
-        alt: 'Paypal',
-      },
-      {
-        src: 'https://cdn.pixabay.com/photo/2021/12/06/13/48/visa-6850402_1280.png',
-        alt: 'Visa',
-      },
-      {
-        src: 'https://cdn.pixabay.com/photo/2013/10/01/10/29/ebay-189064_1280.png',
-        alt: 'Ebay',
-      },
-
-      {
-        src: 'https://cdn.pixabay.com/photo/2015/04/13/17/45/icon-720944_1280.png',
-        alt: 'Youtube',
-      },
-      {
-        src: 'https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658_1280.png',
-        alt: 'Microsoft',
-      },
-      {
-        src: 'https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_1280.png',
-        alt: 'Node JS',
-      },
-      {
-        src: 'https://cdn.pixabay.com/photo/2015/10/31/12/54/google-1015751_1280.png',
-        alt: 'Google',
-      },
-      {
-        src: 'https://cdn.pixabay.com/photo/2021/12/06/13/45/meta-6850393_1280.png',
-        alt: 'Meta',
-      },
-      {
-        src: 'https://cdn.pixabay.com/photo/2013/01/29/22/53/yahoo-76684_1280.png',
-        alt: 'Yahoo',
-      },
+      { src: 'https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404_1280.png', alt: 'Paypal' },
+      { src: 'https://cdn.pixabay.com/photo/2021/12/06/13/48/visa-6850402_1280.png', alt: 'Visa' },
+      { src: 'https://cdn.pixabay.com/photo/2013/10/01/10/29/ebay-189064_1280.png', alt: 'Ebay' },
+      { src: 'https://cdn.pixabay.com/photo/2015/04/13/17/45/icon-720944_1280.png', alt: 'Youtube' },
+      { src: 'https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658_1280.png', alt: 'Microsoft' },
+      { src: 'https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_1280.png', alt: 'Node JS' },
+      { src: 'https://cdn.pixabay.com/photo/2015/10/31/12/54/google-1015751_1280.png', alt: 'Google' },
+      { src: 'https://cdn.pixabay.com/photo/2021/12/06/13/45/meta-6850393_1280.png', alt: 'Meta' },
+      { src: 'https://cdn.pixabay.com/photo/2013/01/29/22/53/yahoo-76684_1280.png', alt: 'Yahoo' },
     ]}
   />
 
-  <!-- Features2 Widget ************** -->
-
   <Features2
-    title="What services do we provide?"
-    subtitle="We offer a wide range of website templates that suit various industries and purposes such as business, portfolio, e-commerce, blog, etc."
+    title="Layanan Khusus Tasyakuran"
+    subtitle="Fitur-fitur yang kami rancang khusus untuk menunjang kebutuhan acara Aqiqah dan Tasyakuran."
     items={[
       {
-        title: 'Installation Instructions',
-        description:
-          'Offer clear instructions on how to download the purchased templates and install them on various website platforms or content management systems.',
+        title: 'Input Data Kelahiran',
+        description: 'Mudah memasukkan nama panjang si kecil, nama panggilan, waktu kelahiran, hingga nama kedua orang tua.',
         icon: 'flat-color-icons:document',
       },
       {
-        title: 'Demo and Previews',
-        description:
-          'Provide interactive demos and previews that allow customers to see how their chosen template will look and function before making a purchase.',
+        title: 'Galeri Foto Buah Hati',
+        description: 'Tampilkan foto-foto lucu menggemaskan si kecil dalam galeri yang tertata rapi dan estetik.',
         icon: 'flat-color-icons:template',
       },
       {
-        title: 'Technical Support',
-        description:
-          'Providing customer support for any technical issues related to the templates or their implementation.',
+        title: 'Customer Service Ramah',
+        description: 'Kami siap membimbing Ayah & Bunda dalam menyesuaikan konten doa atau ayat-ayat Al-Qur\'an di dalam undangan.',
         icon: 'flat-color-icons:voice-presentation',
       },
     ]}
@@ -158,84 +116,71 @@ const metadata = {
     </Fragment>
   </Features2>
 
-  <!-- Features Widget *************** -->
-
   <Features
     id="features"
-    title="Main features of our templates"
-    subtitle="Possess several key characteristics to effectively cater to the needs of startups and entrepreneurs."
+    title="Keunggulan Undangan Aqiqah Kami"
+    subtitle="Sentuhan desain yang lembut dan fitur fungsional untuk memudahkan tamu undangan Anda."
     columns={3}
     items={[
       {
-        title: 'Modern and Professional Design',
-        description:
-          'Have a contemporary design that reflects current design trends and gives a professional impression.',
+        title: 'Desain Pastel & Elegan',
+        description: 'Pilihan tema dengan warna pastel yang lembut, cocok untuk bayi laki-laki maupun perempuan.',
         icon: 'tabler:artboard',
       },
       {
-        title: 'Responsive and Mobile-Friendly',
-        description: 'Adapt seamlessly to different screen sizes and devices to ensure a consistent experience.',
+        title: 'Navigasi Maps Presisi',
+        description: 'Memudahkan tamu menemukan lokasi rumah atau gedung tempat tasyakuran dilaksanakan.',
         icon: 'tabler:picture-in-picture',
       },
       {
-        title: 'Customizability',
-        description:
-          'Easily customizable, allowing users to adapt the design, colors, typography, and content to match their brand identity.',
+        title: 'Konfirmasi Kehadiran (RSVP)',
+        description: 'Estimasi jumlah tamu dengan lebih akurat untuk keperluan konsumsi aqiqah melalui sistem RSVP.',
         icon: 'tabler:adjustments-horizontal',
       },
       {
-        title: 'Fast Loading Times',
-        description: 'Optimized for speed to ensure a smooth user experience and favorable search engine rankings.',
+        title: 'Background Murrotal/Musik',
+        description: 'Pilihan latar belakang suara mulai dari instrumen lembut hingga lantunan ayat suci Al-Qur\'an.',
         icon: 'tabler:rocket',
       },
       {
-        title: 'Search Engine Optimization (SEO)',
-        description:
-          'Incorporate SEO best practices in template structure and code to improve visibility in search engine results.',
+        title: 'Buku Tamu Digital',
+        description: 'Tamu dapat menuliskan doa dan harapan terbaik untuk masa depan si kecil langsung di undangan.',
         icon: 'tabler:arrows-right-left',
       },
       {
-        title: 'Compatibility',
-        description: 'The templates work seamlessly across various content management systems and website builders.',
+        title: 'Fitur Kirim Kado',
+        description: 'Tersedia kolom untuk alamat pengiriman kado atau nomor rekening untuk berbagi kebahagiaan.',
         icon: 'tabler:plug-connected',
       },
     ]}
   />
 
-  <!-- FAQs Widget ******************* -->
-
   <FAQs
-    title="Frequently Asked Questions"
+    title="Pertanyaan Ayah & Bunda"
     items={[
       {
-        title: 'What are landing page templates?',
-        description:
-          'Landing page templates are pre-designed web page layouts that are specifically created to serve as a foundation for building effective landing pages. These templates are designed to capture the attention of visitors and guide them towards a specific action or goal, such as signing up for a newsletter, making a purchase, or downloading a resource.',
+        title: 'Apakah bisa ditambahkan ayat Al-Qur\'an?',
+        description: 'Tentu, Anda bisa menambahkan kutipan ayat (seperti QS. Maryam atau Luqman) atau doa-doa untuk perlindungan bayi.',
       },
       {
-        title: 'Why should I use a template?',
-        description:
-          'Some of the advantages are that they provide a ready-to-use structure,  saving you significant time. Are designed with user-friendliness in mind and provide a cost-effective alternative, saving you money while still delivering a quality result.',
+        title: 'Berapa lama proses pembuatannya?',
+        description: 'Sangat cepat! Setelah data lengkap dimasukkan, undangan bisa langsung digunakan dalam hitungan menit.',
       },
       {
-        title: 'Can I preview templates before buying?',
-        description:
-          'Yes, the templates allow you to preview them before making a purchase. There is a "Demo" button associated with each template.',
+        title: 'Bisakah mencantumkan nama tamu secara personal?',
+        description: 'Ya, Anda bisa membuat link unik untuk masing-masing tamu agar terasa lebih hormat dan personal.',
       },
       {
-        title: 'Do I need technical skills to use a template?',
-        description:
-          'Advanced technical skills are not required to use a template, but having a basic understanding of web navigation and familiarity with using online tools can still be beneficial. If you have more specific customization needs, you might need to consult guides or reach out to customer support for assistance.',
+        title: 'Apakah ada fitur "Satu Klik ke Lokasi"?',
+        description: 'Ya, kami menyediakan tombol yang langsung terhubung ke Google Maps atau Waze tamu Anda.',
       },
       {
-        title: 'Can I use the template on multiple websites?',
-        description:
-          'No, the template comes with a single-use license, meaning you can use the template on one website or project only. Using the template on additional websites would require purchasing additional licenses.',
+        title: 'Bisakah saya mengunggah foto USG atau New Born?',
+        description: 'Tentu saja, galeri kami mendukung berbagai format foto berkualitas tinggi untuk mengabadikan momen si kecil.',
       },
       {
-        title: 'What if I need help with customization?',
-        description:
-          "The templates provides a comprehensive step-by-step guide that walk you through the customization process. If you still have doubts, you can reach out to our customer support team. They can answer your questions, provide guidance on customization, and address any issues you're facing.",
+        title: 'Bagaimana jika acara diundur?',
+        description: 'Ayah & Bunda bisa mengubah tanggal dan waktu acara melalui dashboard tanpa ada biaya tambahan.',
       },
     ]}
   >
@@ -244,74 +189,49 @@ const metadata = {
     </Fragment>
   </FAQs>
 
-  <!-- Features3 Widget ************** -->
-
   <Features3
-    title="Let us know how we can help"
-    subtitle="We’re here to help and answer any question you might have."
+    title="Hubungi Kami untuk Konsultasi"
+    subtitle="Kami siap membantu Ayah & Bunda memberikan yang terbaik untuk tasyakuran buah hati."
     columns={4}
     items={[
       {
-        title: 'Phone',
+        title: 'Telepon',
         icon: 'tabler:phone',
-        callToAction: {
-          target: '_blank',
-          text: 'Call us',
-          href: '/',
-          variant: 'link',
-        },
+        callToAction: { target: '_blank', text: 'Telepon', href: '/', variant: 'link' },
       },
       {
         title: 'Email',
         icon: 'tabler:mail',
-        callToAction: {
-          target: '_blank',
-          text: 'Write to us',
-          href: '/',
-          variant: 'link',
-        },
+        callToAction: { target: '_blank', text: 'Email', href: '/', variant: 'link' },
       },
       {
-        title: 'Chat with sales',
+        title: 'Tanya Tema',
         icon: 'tabler:message-circle',
-        callToAction: {
-          target: '_blank',
-          text: 'Start chatting',
-          href: '/',
-          variant: 'link',
-        },
+        callToAction: { target: '_blank', text: 'Chat Sales', href: '/', variant: 'link' },
       },
       {
-        title: 'Chat with support',
+        title: 'Bantuan',
         icon: 'tabler:message-circle',
-        callToAction: {
-          target: '_blank',
-          text: 'Start chatting',
-          href: '/',
-          variant: 'link',
-        },
+        callToAction: { target: '_blank', text: 'Chat Support', href: '/', variant: 'link' },
       },
     ]}
   />
-
-  <!-- CallToAction Widget *********** -->
 
   <CallToAction
     actions={[
       {
         variant: 'primary',
         target: '_blank',
-        text: 'Get templates',
-        href: 'https://github.com/arthelokyo/astrowind',
+        text: 'Buat Undangan Sekarang',
+        href: '#',
         icon: 'tabler:download',
       },
     ]}
   >
-    <Fragment slot="title">Be a part of our vision</Fragment>
+    <Fragment slot="title">Syiarkan Kebahagiaan Tasyakuran Aqiqah</Fragment>
 
     <Fragment slot="subtitle">
-      Discover a dynamic work environment, unparalleled growth opportunities, and the chance to make a meaningful
-      impact.
+      Jadikan kehadiran si kecil semakin berkesan dengan undangan yang indah. Mulai buat undangan aqiqah digital Anda hari ini.
     </Fragment>
   </CallToAction>
 </Layout>
