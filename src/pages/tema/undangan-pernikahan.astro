@@ -14,39 +14,37 @@ import Brands from '~/components/widgets/Brands.astro';
 import { YouTube } from 'astro-embed';
 
 const metadata = {
-  title: 'Startup Landing Page',
+  title: 'Beranda - Solusi Undangan Digital',
 };
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
-
   <Hero
-    tagline="Startup Web Demo"
+    tagline="Demo Web Undangan Digital"
     actions={[
       {
         variant: 'primary',
         target: '_blank',
-        text: 'Get templates',
-        href: 'https://github.com/arthelokyo/astrowind',
+        text: 'Lihat Katalog',
+        href: '#',
         icon: 'tabler:download',
       },
-      { text: 'Learn more', href: '#features' },
+      { text: 'Pelajari Fitur', href: '#features' },
     ]}
   >
     <Fragment slot="title">
-      Improve <span class="hidden sm:inline">the online presence of</span> your <span
-        class="text-accent dark:text-white">Startup</span
-      > with Astrowind templates
+      Tingkatkan <span class="hidden sm:inline">kehadiran acara</span> Anda dengan <span
+        class="text-accent dark:text-white">Undangan Digital</span
+      > yang Modern
     </Fragment>
 
     <Fragment slot="subtitle">
-      Step into the spotlight with <span class="font-semibold">Astrowind</span> templates, your pathway to fortifying your
-      startup's digital footprint, fostering credibility, and expanding your reach.
+      Masuki era baru dengan templat undangan digital kami. Solusi terbaik untuk memperkuat kesan acara Anda, membangun
+      kredibilitas, dan menjangkau tamu dengan lebih luas serta praktis.
     </Fragment>
 
     <Fragment slot="image">
-      <YouTube id="gxBkghlglTg" title="Astro just Launched.... Could it be the ultimate web framework?" />
+      <YouTube id="gxBkghlglTg" title="Cara Mudah Membuat Undangan Digital" />
       <style is:inline>
         lite-youtube {
           margin: 0 auto;
@@ -56,35 +54,29 @@ const metadata = {
     </Fragment>
   </Hero>
 
-  <!-- Features2 Widget ************** -->
-
   <Features2
-    title="About us"
-    subtitle="We believe in the magic of turning dreams into stunning realities. Founded by passionate developers with a shared vision, we set out to simplify the website creation process. Our templates bring together the innovation of Astro 5.0 and the versatility of Tailwind CSS, enabling you to express your unique brand identity like never before."
+    title="Tentang Kami"
+    subtitle="Kami percaya pada keajaiban mengubah impian menjadi realitas yang menakjubkan. Didirikan oleh para pengembang kreatif dengan visi yang sama, kami hadir untuk menyederhanakan proses pembuatan undangan pernikahan. Templat kami menggabungkan inovasi teknologi terbaru dan fleksibilitas desain, memungkinkan Anda mengekspresikan identitas unik acara Anda dengan cara yang belum pernah ada sebelumnya."
   >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Features2>
 
-  <!-- Stats Widget ****************** -->
-
   <Stats
-    title="Discover the impressive impact of Astrowind"
-    subtitle="The numbers below reflect the trust our users have placed in us and the remarkable outcomes we've helped them achieve."
+    title="Temukan dampak luar biasa dari layanan kami"
+    subtitle="Angka-angka di bawah ini mencerminkan kepercayaan yang diberikan pengguna kepada kami dan hasil luar biasa yang telah kami bantu capai."
     stats={[
-      { title: 'Downloads', amount: '182K' },
-      { title: 'Websites Launched', amount: '87' },
-      { title: 'User Ratings', amount: '4.8' },
-      { title: 'Satisfied Clients', amount: '116K' },
+      { title: 'Unduhan', amount: '182K' },
+      { title: 'Undangan Terbit', amount: '87' },
+      { title: 'Rating Pengguna', amount: '4.8' },
+      { title: 'Klien Puas', amount: '116K' },
     ]}
   />
 
-  <!-- Brands Widget ****************** -->
-
   <Brands
-    title="Partnerships & Collaborations"
-    subtitle="At Astrowind, we believe in the power of collaboration to drive innovation and create exceptional experiences."
+    title="Kemitraan & Metode Pembayaran"
+    subtitle="Kami bekerja sama dengan berbagai penyedia layanan terpercaya untuk memastikan transaksi dan pengalaman Anda berjalan lancar."
     icons={[]}
     images={[
       {
@@ -127,28 +119,26 @@ const metadata = {
     ]}
   />
 
-  <!-- Features2 Widget ************** -->
-
   <Features2
-    title="What services do we provide?"
-    subtitle="We offer a wide range of website templates that suit various industries and purposes such as business, portfolio, e-commerce, blog, etc."
+    title="Layanan apa yang kami sediakan?"
+    subtitle="Kami menawarkan berbagai pilihan templat undangan yang sesuai dengan berbagai industri dan kebutuhan seperti bisnis, portofolio, pernikahan, blog, dan lainnya."
     items={[
       {
-        title: 'Installation Instructions',
+        title: 'Instruksi Pemasangan',
         description:
-          'Offer clear instructions on how to download the purchased templates and install them on various website platforms or content management systems.',
+          'Memberikan panduan yang jelas tentang cara mengunduh templat yang dibeli dan memasangnya di berbagai platform situs web.',
         icon: 'flat-color-icons:document',
       },
       {
-        title: 'Demo and Previews',
+        title: 'Demo dan Pratinjau',
         description:
-          'Provide interactive demos and previews that allow customers to see how their chosen template will look and function before making a purchase.',
+          'Menyediakan demo interaktif yang memungkinkan pelanggan melihat bagaimana templat pilihan mereka akan terlihat sebelum membeli.',
         icon: 'flat-color-icons:template',
       },
       {
-        title: 'Technical Support',
+        title: 'Dukungan Teknis',
         description:
-          'Providing customer support for any technical issues related to the templates or their implementation.',
+          'Menyediakan layanan bantuan pelanggan untuk setiap masalah teknis terkait penggunaan templat atau implementasinya.',
         icon: 'flat-color-icons:voice-presentation',
       },
     ]}
@@ -158,84 +148,81 @@ const metadata = {
     </Fragment>
   </Features2>
 
-  <!-- Features Widget *************** -->
-
   <Features
     id="features"
-    title="Main features of our templates"
-    subtitle="Possess several key characteristics to effectively cater to the needs of startups and entrepreneurs."
+    title="Fitur Utama Templat Kami"
+    subtitle="Memiliki karakteristik kunci untuk memenuhi kebutuhan pasangan modern dan penyelenggara acara dengan efektif."
     columns={3}
     items={[
       {
-        title: 'Modern and Professional Design',
-        description:
-          'Have a contemporary design that reflects current design trends and gives a professional impression.',
+        title: 'Desain Modern & Profesional',
+        description: 'Memiliki desain kontemporer yang mencerminkan tren saat ini dan memberikan kesan profesional.',
         icon: 'tabler:artboard',
       },
       {
-        title: 'Responsive and Mobile-Friendly',
-        description: 'Adapt seamlessly to different screen sizes and devices to ensure a consistent experience.',
+        title: 'Responsif & Ramah Seluler',
+        description:
+          'Beradaptasi dengan sempurna di berbagai ukuran layar dan perangkat untuk memastikan pengalaman yang konsisten.',
         icon: 'tabler:picture-in-picture',
       },
       {
-        title: 'Customizability',
+        title: 'Kemudahan Kustomisasi',
         description:
-          'Easily customizable, allowing users to adapt the design, colors, typography, and content to match their brand identity.',
+          'Mudah disesuaikan, memungkinkan Anda mengubah desain, warna, tipografi, dan konten agar sesuai dengan tema acara Anda.',
         icon: 'tabler:adjustments-horizontal',
       },
       {
-        title: 'Fast Loading Times',
-        description: 'Optimized for speed to ensure a smooth user experience and favorable search engine rankings.',
+        title: 'Waktu Pemuatan Cepat',
+        description:
+          'Dioptimalkan untuk kecepatan guna memastikan pengalaman pengguna yang lancar dan peringkat mesin pencari yang baik.',
         icon: 'tabler:rocket',
       },
       {
-        title: 'Search Engine Optimization (SEO)',
+        title: 'Optimasi Mesin Pencari (SEO)',
         description:
-          'Incorporate SEO best practices in template structure and code to improve visibility in search engine results.',
+          'Menerapkan praktik SEO terbaik dalam struktur kode templat untuk meningkatkan visibilitas di hasil pencarian.',
         icon: 'tabler:arrows-right-left',
       },
       {
-        title: 'Compatibility',
-        description: 'The templates work seamlessly across various content management systems and website builders.',
+        title: 'Kompatibilitas Luas',
+        description: 'Templat kami bekerja dengan lancar di berbagai sistem manajemen konten dan pembuat situs web.',
         icon: 'tabler:plug-connected',
       },
     ]}
   />
 
-  <!-- FAQs Widget ******************* -->
-
   <FAQs
-    title="Frequently Asked Questions"
+    title="Pertanyaan yang Sering Diajukan"
     items={[
       {
-        title: 'What are landing page templates?',
+        title: 'Apa itu templat halaman landas (landing page)?',
         description:
-          'Landing page templates are pre-designed web page layouts that are specifically created to serve as a foundation for building effective landing pages. These templates are designed to capture the attention of visitors and guide them towards a specific action or goal, such as signing up for a newsletter, making a purchase, or downloading a resource.',
+          'Templat halaman landas adalah tata letak halaman web yang dirancang khusus untuk menjadi fondasi dalam membangun halaman yang efektif. Templat ini dibuat untuk menarik perhatian pengunjung dan mengarahkan mereka ke tindakan tertentu, seperti mendaftar atau melihat detail undangan.',
       },
       {
-        title: 'Why should I use a template?',
+        title: 'Mengapa saya harus menggunakan templat?',
         description:
-          'Some of the advantages are that they provide a ready-to-use structure,  saving you significant time. Are designed with user-friendliness in mind and provide a cost-effective alternative, saving you money while still delivering a quality result.',
+          'Keuntungannya adalah menyediakan struktur siap pakai yang menghemat banyak waktu Anda. Dirancang agar mudah digunakan dan merupakan alternatif hemat biaya namun tetap memberikan hasil berkualitas tinggi.',
       },
       {
-        title: 'Can I preview templates before buying?',
+        title: 'Dapatkah saya melihat pratinjau sebelum membeli?',
         description:
-          'Yes, the templates allow you to preview them before making a purchase. There is a "Demo" button associated with each template.',
+          'Ya, Anda dapat melihat pratinjau templat sebelum melakukan pembelian. Terdapat tombol "Demo" di setiap pilihan templat kami.',
       },
       {
-        title: 'Do I need technical skills to use a template?',
+        title: 'Apakah saya butuh keahlian teknis untuk menggunakan templat ini?',
         description:
-          'Advanced technical skills are not required to use a template, but having a basic understanding of web navigation and familiarity with using online tools can still be beneficial. If you have more specific customization needs, you might need to consult guides or reach out to customer support for assistance.',
+          'Keahlian teknis tingkat lanjut tidak diperlukan, namun memiliki pemahaman dasar navigasi web akan sangat membantu. Jika Anda butuh kustomisasi khusus, tim dukungan kami siap membantu Anda.',
       },
       {
-        title: 'Can I use the template on multiple websites?',
+        title: 'Bisakah saya menggunakan satu templat untuk banyak situs?',
         description:
-          'No, the template comes with a single-use license, meaning you can use the template on one website or project only. Using the template on additional websites would require purchasing additional licenses.',
+          'Tidak, satu templat hadir dengan lisensi penggunaan tunggal, artinya hanya dapat digunakan untuk satu proyek atau satu situs web saja.',
       },
       {
-        title: 'What if I need help with customization?',
+        title: 'Bagaimana jika saya butuh bantuan kustomisasi?',
         description:
-          "The templates provides a comprehensive step-by-step guide that walk you through the customization process. If you still have doubts, you can reach out to our customer support team. They can answer your questions, provide guidance on customization, and address any issues you're facing.",
+          'Kami menyediakan panduan langkah demi langkah yang lengkap. Jika Anda masih ragu, tim dukungan pelanggan kami siap menjawab pertanyaan dan memberikan bimbingan langsung.',
       },
     ]}
   >
@@ -244,19 +231,17 @@ const metadata = {
     </Fragment>
   </FAQs>
 
-  <!-- Features3 Widget ************** -->
-
   <Features3
-    title="Let us know how we can help"
-    subtitle="We’re here to help and answer any question you might have."
+    title="Beritahu kami bagaimana kami bisa membantu"
+    subtitle="Kami di sini untuk membantu dan menjawab setiap pertanyaan yang mungkin Anda miliki."
     columns={4}
     items={[
       {
-        title: 'Phone',
+        title: 'Telepon',
         icon: 'tabler:phone',
         callToAction: {
           target: '_blank',
-          text: 'Call us',
+          text: 'Hubungi Kami',
           href: '/',
           variant: 'link',
         },
@@ -266,27 +251,27 @@ const metadata = {
         icon: 'tabler:mail',
         callToAction: {
           target: '_blank',
-          text: 'Write to us',
+          text: 'Kirim Email',
           href: '/',
           variant: 'link',
         },
       },
       {
-        title: 'Chat with sales',
+        title: 'Chat Penjualan',
         icon: 'tabler:message-circle',
         callToAction: {
           target: '_blank',
-          text: 'Start chatting',
+          text: 'Mulai Obrolan',
           href: '/',
           variant: 'link',
         },
       },
       {
-        title: 'Chat with support',
+        title: 'Chat Dukungan',
         icon: 'tabler:message-circle',
         callToAction: {
           target: '_blank',
-          text: 'Start chatting',
+          text: 'Mulai Obrolan',
           href: '/',
           variant: 'link',
         },
@@ -294,24 +279,22 @@ const metadata = {
     ]}
   />
 
-  <!-- CallToAction Widget *********** -->
-
   <CallToAction
     actions={[
       {
         variant: 'primary',
         target: '_blank',
-        text: 'Get templates',
-        href: 'https://github.com/arthelokyo/astrowind',
+        text: 'Dapatkan Templat',
+        href: '#',
         icon: 'tabler:download',
       },
     ]}
   >
-    <Fragment slot="title">Be a part of our vision</Fragment>
+    <Fragment slot="title">Jadilah Bagian dari Visi Kami</Fragment>
 
     <Fragment slot="subtitle">
-      Discover a dynamic work environment, unparalleled growth opportunities, and the chance to make a meaningful
-      impact.
+      Temukan lingkungan kerja yang dinamis, peluang pertumbuhan yang tak tertandingi, dan kesempatan untuk memberikan
+      dampak yang bermakna bagi momen spesial banyak orang.
     </Fragment>
   </CallToAction>
 </Layout>
