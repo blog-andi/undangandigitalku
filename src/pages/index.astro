@@ -21,23 +21,26 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
-  <Hero image={{ src: '~/assets/images/undangan-digital-pekanbaru.webp', alt: 'Undangan Digital Pekanbaru' }}>
-    <Fragment slot="title"> Undangan Digital Pekanbaru </Fragment>
-    <span class="hidden xl:inline"></span>
-    <span class="text-accent dark:text-white"> Live Dalam 3 Jam </span>
-  </Hero>
-
+  <Hero 
+    image={{ src: '~/assets/images/undangan-digital-pekanbaru.webp', alt: 'Undangan Digital Pekanbaru' }}
+ >
+    <Fragment slot="title"> 
+      Undangan Digital Pekanbaru
+      <span class="hidden xl:inline"></span>
+        <span class="text-accent dark:text-white"> Live Dalam 3 Jam 
+        </span>
+    </Fragment>
+ 
   <Fragment slot="subtitle">
     <span class="hidden sm:inline">
       <span class="font-semibold">Undangan Website</span> di Pekanbaru ?
-      <br /> Pengerjaan Instant 3 Jam
-    </span>
-
+      <br /> Pengerjaan Instant 3 Jam</span>
+   
     <span class="block mb-1 sm:hidden font-bold text-blue-600">Undangan Online Pekanbaru.</span>
     <br /> Bikin Sekali, Share Berkali-Kali
     <br /> Garansi Undangan On 1 Tahun (bukan 1,3,6 bulan)
   </Fragment>
-</Layout>
+</Hero>
 
 <!-- Note Widget ******************* -->
 
@@ -72,7 +75,7 @@ const metadata = {
     {
       title: 'Harga Jujur Tak Neko Neko',
       description:
-        'Detail harga jelas sejak awal. Tak ada biaya tambahan yang tiba-tiba muncul, pokoknya transparan dan terpercaya..',
+        'Detail harga jelas sejak awal. Tak ada biaya tambahan yang tiba-tiba muncul, pokoknya transparan dan terpercaya.',
       icon: 'tabler:rocket',
     },
     {
@@ -195,7 +198,7 @@ const metadata = {
     alt: 'Astronauts Image',
   }}
 >
-  <Fragment slot="content">Designed to foster growth and success.</Fragment>
+  <Fragment slot="content">Didesain khusus untuk momen berharga Anda.</Fragment>
 
   <Fragment slot="bg">
     <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
@@ -362,7 +365,7 @@ const metadata = {
       text: 'Tanya2 di WA',
       href: 'https://wa.me/6289519865963',
       target: '_blank',
-      icon: 'tabler:download',
+      icon: 'tabler:whatsapp',
     },
   ]}
 >
