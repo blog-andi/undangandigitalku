@@ -2,8 +2,6 @@
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import Prices from '~/components/widgets/Pricing.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
-import Steps from '~/components/widgets/Steps.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
@@ -19,10 +17,9 @@ const metadata = {
     subtitle="Pilih paket yang paling pas untuk momen spesial Anda."
   />
 
-  <Prices
+<Prices
     title="Harga Kami"
     subtitle="Sekali Bayar, Aktif Selamanya"
-    columns={2}
     prices={[
       {
         title: 'Hemat',
@@ -60,23 +57,6 @@ const metadata = {
         },
         hasRibbon: true,
         ribbonTitle: 'popular',
-      },
-      {
-        title: 'Sultan',
-        subtitle: 'Solusi paripurna pesta megah',
-        price: 199000,
-        period: 'Per Acara',
-        items: [
-          { description: 'Semua fitur paket' },
-          { description: 'Custom domain .com/.net' },
-          { description: 'Integrasi Live Streaming' },
-          { description: 'Input Data Tamu Otomatis' },
-        ],
-        callToAction: {
-          target: '_blank',
-          text: 'Pilih Paket',
-          href: 'https://wa.me/6289519865963',
-        },
       },
     ]}
   />
