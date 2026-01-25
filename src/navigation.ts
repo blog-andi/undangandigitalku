@@ -35,18 +35,13 @@ export const headerData = {
           href: getPermalink('/landing/pricing'),
         },
         {
-          text: 'Pricing2',
-          href: getPermalink('/landing/pricing2'),
-        },
-        {
           text: 'About',
           href: getPermalink('/landing/about'),
         },
         {
           text: 'Contact',
           href: getPermalink('/landing/contact'),
-        },git add .
-        
+        },
         {
           text: 'Privacy',
           href: getPermalink('/landing/privacy'),
