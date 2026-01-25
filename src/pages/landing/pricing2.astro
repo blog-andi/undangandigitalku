@@ -1,0 +1,163 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Prices from '~/components/widgets/Pricing.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Harga',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Daftar Harga"
+    title="Harga Terjangkau untuk Setiap Kebutuhan"
+    subtitle="Pilih paket terbaik yang sesuai dengan tujuan kreatif Anda."
+  />
+
+  <Prices
+    title="Pilihan Paket Kami"
+    subtitle="Hanya bayar untuk apa yang Anda butuhkan"
+    prices={[
+      {
+        title: 'Dasar',
+        subtitle: 'Pilihan optimal untuk penggunaan pribadi',
+        price: 29,
+        period: 'per bulan',
+        items: [
+          { description: 'Akses ke fitur inti' },
+          { description: 'Pembaruan berkala' },
+          { description: 'Dukungan komunitas' },
+          { description: 'Penyimpanan standar' },
+        ],
+        callToAction: {
+          target: '_blank',
+          text: 'Mulai Sekarang',
+          href: '#',
+        },
+      },
+      {
+        title: 'Standar',
+        subtitle: 'Pilihan tepat untuk tim kecil',
+        price: 69,
+        period: 'per bulan',
+        items: [
+          { description: 'Semua fitur paket Dasar' },
+          { description: 'Kolaborasi antar tim' },
+          { description: 'Analitik lanjutan' },
+          { description: 'Dukungan prioritas' },
+          { description: 'Kapasitas penyimpanan lebih besar' },
+        ],
+        callToAction: {
+          target: '_blank',
+          text: 'Mulai Sekarang',
+          href: '#',
+        },
+        hasRibbon: true,
+        ribbonTitle: 'Populer',
+      },
+    ]}
+  />
+
+  <Features3
+    title="Fitur Penunjang"
+    subtitle="Temukan keuntungan memilih layanan kami"
+    columns={2}
+    items={[
+      {
+        title: 'Paket Harga Bertingkat',
+        description: 'Pilih dari berbagai rencana harga yang dirancang untuk mengakomodasi anggaran yang berbeda.',
+        icon: 'tabler:stairs',
+      },
+      {
+        title: 'Harga Transparan',
+        description: 'Detail harga yang jelas untuk setiap paket, tanpa biaya tersembunyi.',
+        icon: 'tabler:flip-vertical',
+      },
+      {
+        title: 'Metode Pembayaran Aman',
+        description: 'Gerbang pembayaran aman untuk melindungi informasi finansial Anda.',
+        icon: 'tabler:shield-lock',
+      },
+      {
+        title: 'Akses Instan',
+        description: 'Akses langsung ke fitur dan template paket pilihan Anda segera setelah berlangganan.',
+        icon: 'tabler:accessible',
+      },
+      {
+        title: 'Nilai Upgrade',
+        description: 'Tingkatkan paket untuk membuka lebih banyak fitur dan manfaat tambahan.',
+        icon: 'tabler:chevrons-up',
+      },
+      {
+        title: 'Dukungan 24 Jam',
+        description: 'Pertanyaan dijawab melalui chat langsung, email, atau telepon setiap hari.',
+        icon: 'tabler:headset',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+
+  <Steps
+    title="Langkah Mudah Menuju Kreativitas"
+    tagline="Proses Sederhana"
+    isReversed={true}
+    items={[
+      { title: 'Jelajahi Paket', icon: 'tabler:number-1' },
+      { title: 'Pilih Paket Anda', icon: 'tabler:number-2' },
+      { title: 'Daftar / Masuk Akun', icon: 'tabler:number-3' },
+      { title: 'Tinjau Pesanan', icon: 'tabler:number-4' },
+      { title: 'Pembayaran', icon: 'tabler:number-5' },
+      { title: 'Konfirmasi', icon: 'tabler:number-6' },
+      { title: 'Unduh & Gunakan Template', icon: 'tabler:number-7' },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1536816579748-4ecb3f03d72a?auto=format&fit=crop&w=987&q=80',
+      alt: 'Gambar Langkah-langkah',
+    }}
+  />
+
+  <FAQs
+    title="Pertanyaan Umum (FAQ)"
+    subtitle="Memilih paket yang tepat itu penting, dan kami di sini untuk membantu menjawab pertanyaan Anda."
+    columns={1}
+    items={[
+      {
+        title: 'Apakah paket sudah termasuk dukungan pelanggan?',
+        description: 'Tentu, semua paket menyertakan akses ke tim dukungan pelanggan khusus untuk membantu Anda.',
+      },
+      {
+        title: 'Apakah ada masa percobaan?',
+        description: 'Saat ini kami tidak menawarkan masa percobaan, namun Anda dapat melihat bagian demo kami untuk kualitas template.',
+      },
+      {
+        title: 'Bisakah saya berganti paket?',
+        description: 'Tentu saja! Anda dapat meningkatkan atau menurunkan paket kapan saja sesuai kebutuhan Anda.',
+      },
+      {
+        title: 'Metode pembayaran apa yang tersedia?',
+        description: 'Kami menerima kartu kredit utama dan metode pembayaran daring populer lainnya.',
+      },
+      {
+        title: 'Apakah ada biaya tersembunyi?',
+        description: 'Tidak, biaya berlangganan mencakup semua fitur yang tercantum. Tidak ada biaya tambahan yang tidak terduga.',
+      },
+    ]}
+  />
+
+  <CallToAction
+    title="Siap meningkatkan proyek Anda?"
+    subtitle="Bergabunglah dengan komunitas pelanggan kami yang puas sekarang juga."
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Mulai Sekarang',
+        href: '/',
+      },
+    ]}
+  />
+</Layout>
