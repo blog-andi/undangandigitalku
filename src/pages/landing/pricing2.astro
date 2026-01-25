@@ -1,0 +1,108 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Prices from '~/components/widgets/Pricing.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Harga Undangan Digital',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Daftar Harga"
+    title="Harga Spesial untuk Setiap Momen"
+    subtitle="Pilih paket undangan digital yang paling sesuai dengan kebutuhan dan anggaran acara Anda."
+  />
+
+  <div class="flex justify-center w-full px-4">
+    <div class="w-full max-w-5xl"> 
+      <Prices
+        title="Harga kami"
+        subtitle="Hanya bayar untuk fitur yang Anda butuhkan"
+        prices={[
+          {
+            title: 'dasar',
+            subtitle: 'Pilihan tepat untuk penggunaan pribadi',
+            price: 99000,
+            period: 'rupiah per undangan',
+            items: [
+              { description: 'Masa aktif hingga 12 bulan' },
+              { description: 'Desain responsif dan elegan' },
+              { description: 'Fitur navigasi lokasi tepat' },
+              { description: 'Konfirmasi kehadiran (RSVP)' },
+            ],
+            callToAction: {
+              target: '_blank',
+              text: 'Mulai sekarang',
+              href: '#',
+            },
+          },
+          {
+            title: 'standar',
+            subtitle: 'Pilihan terbaik untuk acara spesial',
+            price: 149000,
+            period: 'rupiah per undangan',
+            items: [
+              { description: 'Masa aktif hingga 12 bulan' },
+              { description: 'Fitur buku tamu digital' },
+              { description: 'Galeri foto dan video' },
+              { description: 'Musik latar sesuai pilihan' },
+              { description: 'Kirim undangan tanpa batas' },
+            ],
+            callToAction: {
+              target: '_blank',
+              text: 'Mulai sekarang',
+              href: '#',
+            },
+            hasRibbon: true,
+            ribbonTitle: 'populer',
+          },
+        ]}
+      />
+    </div>
+  </div>
+  <Features3
+    title="Fitur terkait harga"
+    subtitle="Temukan keuntungan memilih paket layanan kami"
+    columns={2}
+    items={[
+      { title: 'Paket Harga Bertingkat', description: 'Desain fleksibel untuk anggaran Anda.', icon: 'tabler:stairs' },
+      { title: 'Harga Transparan', description: 'Tanpa biaya tersembunyi.', icon: 'tabler:flip-vertical' },
+      { title: 'Metode Pembayaran Aman', description: 'Transaksi terlindungi.', icon: 'tabler:shield-lock' },
+      { title: 'Akses Instan', description: 'Gunakan templat segera setelah bayar.', icon: 'tabler:accessible' },
+      { title: 'Nilai Peningkatan', description: 'Upgrade paket kapan saja.', icon: 'tabler:chevrons-up' },
+      { title: 'Dukungan 24 Jam', description: 'Bantuan teknis setiap saat.', icon: 'tabler:headset' },
+    ]}
+  />
+
+  <Steps
+    title="Proses Sederhana"
+    items={[
+      { title: 'Pilih paket', icon: 'tabler:number-1' },
+      { title: 'Bayar', icon: 'tabler:number-2' },
+      { title: 'Gunakan templat', icon: 'tabler:number-3' },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1536816579748-4ecb3f03d72a?auto=format&fit=crop&w=987&q=80',
+      alt: 'Langkah',
+    }}
+  />
+
+  <FAQs
+    title="Tanya Jawab"
+    items={[
+      { title: 'Apakah ada biaya tambahan?', description: 'Tidak ada biaya tersembunyi.' },
+      { title: 'Metode pembayaran?', description: 'Mendukung Transfer Bank dan E-Wallet.' },
+    ]}
+  />
+
+  <CallToAction
+    title="Siap memulai?"
+    actions={[{ variant: 'primary', text: 'Mulai sekarang', href: '/' }]}
+  />
+</Layout>
