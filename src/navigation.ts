@@ -36,7 +36,7 @@ export const headerData = {
         },
         {
           text: 'Pricing2',
-          href: getPermalink('/landing/pricing'),
+          href: getPermalink('/landing/pricing2'),
         },
         {
           text: 'About',
