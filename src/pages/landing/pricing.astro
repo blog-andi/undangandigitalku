@@ -8,176 +8,92 @@ import Features3 from '~/components/widgets/Features3.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Harga Undangan Digital - Investasi Kebahagiaan',
+  title: 'Harga Undangan Digital',
 };
 ---
 
 <Layout metadata={metadata}>
   <HeroText
     tagline="Investasi Kebahagiaan"
-    title="Harga Jujur Untuk Kenangan Yang Tak Lekang Oleh Waktu"
-    subtitle="Menikah Hanya Sekali Seumur Hidup, Pilih Paket yang Tepat untuk Momen Spesial Anda"
+    title="Harga Jujur Untuk Kenangan Tak Lekang Waktu"
+    subtitle="Pilih paket yang paling pas untuk momen spesial Anda."
   />
 
   <Prices
-    title="Pilihan Paket"
-    subtitle="Sekali Bayar, Aktif Selamanya, Sebar Tanpa Batas"
+    title="Harga Kami"
+    subtitle="Sekali Bayar, Aktif Selamanya"
     prices={[
       {
         title: 'Hemat',
-        subtitle: 'Pilihan tepat untuk momen intim & personal',
+        subtitle: 'Pilihan tepat untuk momen intim',
         price: 99000,
         period: 'per acara',
         items: [
           { description: 'Desain elegan memanjakan mata' },
-          { description: 'Navigasi lokasi (Google Maps)' },
-          { description: 'Galeri foto momen kebersamaan' },
-          { description: 'Aktif selamanya tanpa biaya tambahan' },
-          { description: 'Protokol kesehatan & Wish list' },
+          { description: 'Navigasi lokasi presisi' },
+          { description: 'Galeri foto momen bersama' },
+          { description: 'Aktif selamanya' },
         ],
         callToAction: {
           target: '_blank',
-          text: 'Pilih Paket Hemat',
-          href: 'https://wa.me/6289519865963?text=Halo,%20saya%20tertarik%20paket%20Hemat',
+          text: 'Pilih Paket',
+          href: 'https://wa.me/6289519865963',
         },
       },
       {
         title: 'Eksklusif',
-        subtitle: 'Standar baru untuk pernikahan berkesan',
+        subtitle: 'Standar baru pernikahan berkesan',
         price: 149000,
         period: 'Per Acara',
         items: [
           { description: 'Semua fitur paket HEMAT' },
-          { description: 'RSVP & Buku Tamu Digital' },
-          { description: 'Musik latar yang menyentuh hati' },
-          { description: 'Countdown eksklusif hari H' },
+          { description: 'RSVP & Buku Tamu digital' },
+          { description: 'Musik latar syahdu' },
+          { description: 'Countdown hari H' },
           { description: 'Bebas revisi sampai puas' },
         ],
         callToAction: {
           target: '_blank',
-          text: 'Pilih Paket Eksklusif',
-          href: 'https://wa.me/6289519865963?text=Halo,%20saya%20tertarik%20paket%20Eksklusif',
+          text: 'Pilih Paket',
+          href: 'https://wa.me/6289519865963',
         },
         hasRibbon: true,
-        ribbonTitle: 'Paling Populer',
+        ribbonTitle: 'popular',
       },
       {
         title: 'Sultan',
-        subtitle: 'Solusi paripurna untuk pesta megah',
+        subtitle: 'Solusi paripurna pesta megah',
         price: 299000,
         period: 'Per Acara',
         items: [
           { description: 'Semua fitur paket EKSKLUSIF' },
-          { description: 'Custom Domain (namakamu.com)' },
+          { description: 'Custom domain .com/.net' },
           { description: 'Integrasi Live Streaming' },
           { description: 'Input Data Tamu Otomatis' },
-          { description: 'Kado Digital / Angpao Online' },
         ],
         callToAction: {
           target: '_blank',
-          text: 'Pilih Paket Sultan',
-          href: 'https://wa.me/6289519865963?text=Halo,%20saya%20tertarik%20paket%20Sultan',
+          text: 'Pilih Paket',
+          href: 'https://wa.me/6289519865963',
         },
       },
     ]}
   />
 
   <Features3
-    title="Keunggulan Layanan Kami"
-    subtitle="Mengapa ribuan pasangan mempercayakan undangan digitalnya kepada kami?"
+    title="Fitur Unggulan"
     columns={2}
     items={[
-      {
-        title: 'Pilihan Paket Fleksibel',
-        description: 'Pilih kategori harga yang paling sesuai dengan anggaran tanpa harus mengorbankan estetika undangan Anda.',
-        icon: 'tabler:stairs',
-      },
-      {
-        title: 'Harga Jujur & Terbuka',
-        description: 'Semua biaya tertera jelas di depan tanpa ada biaya tambahan tersembunyi atau kejutan tagihan di akhir.',
-        icon: 'tabler:flip-vertical',
-      },
-      {
-        title: 'Pendampingan 24 Jam',
-        description: 'Tim kami siap siaga setiap saat untuk menjawab pertanyaan dan memastikan undangan digital Anda tampil sempurna.',
-        icon: 'tabler:headset',
-      },
-      {
-        title: 'Transaksi Aman Terjamin',
-        description: 'Sistem pembayaran terenkripsi untuk memastikan data Anda terlindungi sepenuhnya saat memesan kebahagiaan.',
-        icon: 'tabler:shield-lock',
-      },
-      {
-        title: 'Nilai Tambah Eksklusif',
-        description: 'Tingkatkan paket kapan saja untuk membuka fitur-fitur mewah yang akan membuat tamu Anda berdecak kagum.',
-        icon: 'tabler:chevrons-up',
-      },
-      {
-        title: 'Akses Kilat Seketika',
-        description: 'Sesaat setelah konfirmasi, Anda bisa langsung menyusun dan membagikan kabar bahagia ke seluruh tamu undangan.',
-        icon: 'tabler:zap',
-      },
-    ]}
-    classes={{ container: 'max-w-5xl' }}
-  />
-
-  <Steps
-    title="Langkah Singkat Menuju Hari Bahagia"
-    tagline="Proses Satset"
-    isReversed={true}
-    items={[
-      { title: 'Jelajahi Desain Estetik', icon: 'tabler:number-1' },
-      { title: 'Pilih Paket Sesuai Impian', icon: 'tabler:number-2' },
-      { title: 'Isi Data Mempelai & Acara', icon: 'tabler:number-3' },
-      { title: 'Finalisasi Detail Undangan', icon: 'tabler:number-4' },
-      { title: 'Selesaikan Pembayaran Aman', icon: 'tabler:number-5' },
-      { title: 'Yeay! Undangan Siap Digunakan', icon: 'tabler:number-6' },
-      { title: 'Siap Sebar Kebahagiaan Sekarang', icon: 'tabler:heart' },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=987&q=80',
-      alt: 'Wedding Celebration',
-    }}
-  />
-
-  <FAQs
-    title="Pertanyaan Sering Diajukan"
-    subtitle="Kami merangkum beberapa pertanyaan yang sering ditanyakan calon mempelai untuk membantu Anda."
-    columns={1}
-    items={[
-      {
-        title: 'Berapa lama proses pembuatan undangannya?',
-        description: 'Sangat cepat! Setelah data lengkap dan pembayaran terkonfirmasi, undangan Anda bisa langsung aktif dalam hitungan menit hingga maksimal 1x24 jam.',
-      },
-      {
-        title: 'Apakah saya bisa mengubah data setelah undangan jadi?',
-        description: 'Tentu saja! Kami memberikan akses atau bantuan revisi jika ada perubahan jadwal atau lokasi acara agar informasi tetap akurat.',
-      },
-      {
-        title: 'Apakah ada batasan jumlah tamu yang dikirim?',
-        description: 'Tidak ada batasan. Anda bisa menyebarkan link undangan digital Anda ke ribuan tamu tanpa biaya tambahan per klik.',
-      },
-      {
-        title: 'Bagaimana sistem pembayarannya?',
-        description: 'Kami mendukung berbagai metode pembayaran mulai dari Transfer Bank, E-Wallet (OVO, Dana, QRIS) untuk kemudahan Anda.',
-      },
-      {
-        title: 'Apakah undangan ini aktif selamanya?',
-        description: 'Ya, masa aktif undangan kami adalah selamanya (selama server beroperasi) tanpa ada biaya perpanjangan tahunan.',
-      },
+      { title: 'Paket Fleksibel', description: 'Sesuai budget Anda.', icon: 'tabler:stairs' },
+      { title: 'Harga Jujur', description: 'Tanpa biaya tambahan.', icon: 'tabler:check' },
+      { title: 'Support 24 Jam', description: 'Tim kami siap membantu.', icon: 'tabler:headset' },
+      { title: 'Akses Kilat', description: 'Langsung jadi setelah bayar.', icon: 'tabler:bolt' },
     ]}
   />
 
   <CallToAction
-    title="Wujudkan Undangan Impian Anda Hari Ini"
-    subtitle="Jangan biarkan momen berharga Anda terlewatkan. Buat undangan yang elegan dan berkesan hanya dalam beberapa klik."
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Konsultasi Gratis via WA',
-        href: 'https://wa.me/6289519865963',
-        icon: 'tabler:brand-whatsapp',
-      },
-    ]}
+    title="Siap Membuat Undangan?"
+    subtitle="Hubungi kami sekarang untuk konsultasi gratis."
+    actions={[{ variant: 'primary', text: 'Chat WhatsApp', href: 'https://wa.me/6289519865963' }]}
   />
 </Layout>
