@@ -1,238 +1,48 @@
----
-import Layout from '~/layouts/PageLayout.astro';
-import HeroText from '~/components/widgets/HeroText.astro';
-import Prices from '~/components/widgets/Pricing.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
-import Steps from '~/components/widgets/Steps.astro';
-import Features3 from '~/components/widgets/Features3.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
-
-const metadata = {
-  title: 'Harga Undangan Digital',
-};
----
-
-<Layout metadata={metadata}>
-  <HeroText
-    tagline="Daftar Harga"
-    title="Harga Spesial untuk Setiap Momen"
-    subtitle="Pilih paket undangan digital yang paling sesuai dengan kebutuhan dan anggaran acara Anda."
-  />
-
-  <Prices
-    title="Harga kami"
-    subtitle="Hanya bayar untuk fitur yang Anda butuhkan"
-    prices={[
-      {
-        title: 'dasar',
-        subtitle: 'Pilihan tepat untuk penggunaan pribadi',
-        price: 99000,
-        period: 'rupiah per undangan',
-        items: [
-          {
-            description: 'Masa aktif hingga 3 bulan',
-          },
-          {
-            description: 'Desain responsif dan elegan',
-          },
-          {
-            description: 'Fitur navigasi lokasi tepat',
-          },
-          {
-            description: 'Konfirmasi kehadiran (RSVP)',
-          },
-          {
-            description: 'Masa Aktif hingga 12 Bulan',
-          },
-        ],
-        callToAction: {
-          target: '_blank',
-          text: 'Mulai sekarang',
-          href: '#',
-        },
+<Prices
+  title="Harga kami"
+  subtitle="Hanya bayar untuk fitur yang Anda butuhkan"
+  /* Menambahkan class khusus untuk memaksa grid menjadi 2 kolom dan centering */
+  classes={{
+    container: 'max-w-4xl mx-auto', 
+    items: 'grid-cols-1 sm:grid-cols-2 justify-center flex justify-center', 
+  }}
+  prices={[
+    {
+      title: 'dasar',
+      subtitle: 'Pilihan tepat untuk penggunaan pribadi',
+      price: 99000,
+      period: 'rupiah per undangan',
+      items: [
+        { description: 'Masa aktif hingga 12 bulan' },
+        { description: 'Desain responsif dan elegan' },
+        { description: 'Fitur navigasi lokasi tepat' },
+        { description: 'Konfirmasi kehadiran (RSVP)' },
+      ],
+      callToAction: {
+        target: '_blank',
+        text: 'Mulai sekarang',
+        href: '#',
       },
-      {
-        title: 'standar',
-        subtitle: 'Pilihan terbaik untuk acara spesial',
-        price: 149000,
-        period: 'rupiah per undangan',
-        items: [
-          {
-            description: 'Masa aktif hingga 12 bulan',
-          },
-          {
-            description: 'Fitur buku tamu digital',
-          },
-          {
-            description: 'Galeri foto dan video',
-          },
-          {
-            description: 'Musik latar sesuai pilihan',
-          },
-          {
-            description: 'Kirim undangan tanpa batas',
-          },
-        ],
-        callToAction: {
-          target: '_blank',
-          text: 'Mulai sekarang',
-          href: '#',
-        },
-        hasRibbon: true,
-        ribbonTitle: 'populer',
+    },
+    {
+      title: 'standar',
+      subtitle: 'Pilihan terbaik untuk acara spesial',
+      price: 149000,
+      period: 'rupiah per undangan',
+      items: [
+        { description: 'Masa aktif hingga 12 bulan' },
+        { description: 'Fitur buku tamu digital' },
+        { description: 'Galeri foto dan video' },
+        { description: 'Musik latar sesuai pilihan' },
+        { description: 'Kirim undangan tanpa batas' },
+      ],
+      callToAction: {
+        target: '_blank',
+        text: 'Mulai sekarang',
+        href: '#',
       },
-      {
-        title: 'premium',
-        subtitle: 'Pilihan eksklusif untuk hasil terbaik',
-        price: 249000,
-        period: 'rupiah per undangan',
-        items: [
-          {
-            description: 'Masa aktif selamanya',
-          },
-          {
-            description: 'Domain kustom (nama-anda.com)',
-          },
-          {
-            description: 'Fitur angpao digital & kado',
-          },
-          {
-            description: 'Prioritas dukungan pelanggan',
-          },
-        ],
-        callToAction: {
-          target: '_blank',
-          text: 'Mulai sekarang',
-          href: '#',
-        },
-      },
-    ]}
-  />
-
-  <Features3
-    title="Fitur terkait harga"
-    subtitle="Temukan keuntungan memilih paket layanan kami"
-    columns={2}
-    items={[
-      {
-        title: 'Paket Harga Bertingkat',
-        description:
-          'Pilih dari berbagai pilihan paket harga yang dirancang untuk menyesuaikan anggaran dan kebutuhan Anda.',
-        icon: 'tabler:stairs',
-      },
-      {
-        title: 'Harga Transparan',
-        description:
-          'Detail harga ditampilkan dengan jelas untuk setiap paket, tanpa biaya tersembunyi atau biaya kejutan.',
-        icon: 'tabler:flip-vertical',
-      },
-      {
-        title: 'Metode Pembayaran Aman',
-        description: 'Gerbang pembayaran yang aman untuk melindungi informasi finansial Anda selama transaksi.',
-        icon: 'tabler:shield-lock',
-      },
-      {
-        title: 'Akses Instan',
-        description: 'Akses langsung ke fitur dan templat paket pilihan Anda segera setelah berlangganan.',
-        icon: 'tabler:accessible',
-      },
-      {
-        title: 'Nilai Peningkatan',
-        description:
-          'Tingkatkan ke paket yang lebih tinggi untuk membuka lebih banyak fitur dan manfaat pengalaman lebih baik.',
-        icon: 'tabler:chevrons-up',
-      },
-      {
-        title: 'Dukungan 24 Jam',
-        description: 'Pertanyaan dijawab melalui obrolan langsung, email, atau telepon setiap hari kalender.',
-        icon: 'tabler:headset',
-      },
-    ]}
-    classes={{ container: 'max-w-5xl' }}
-  />
-
-  <Steps
-    title="Perjalanan mudah dari paket menuju kreativitas"
-    tagline="proses sederhana"
-    isReversed={true}
-    items={[
-      {
-        title: 'Pelajari paket',
-        icon: 'tabler:number-1',
-      },
-      {
-        title: 'Pilih paket',
-        icon: 'tabler:number-2',
-      },
-      {
-        title: 'Daftar / Masuk Akun',
-        icon: 'tabler:number-3',
-      },
-      {
-        title: 'Tinjau pesanan',
-        icon: 'tabler:number-4',
-      },
-      {
-        title: 'Masukkan detail pembayaran',
-        icon: 'tabler:number-5',
-      },
-      {
-        title: 'Konfirmasi',
-        icon: 'tabler:number-6',
-      },
-      {
-        title: 'Unduh dan mulai gunakan templatnya',
-        icon: 'tabler:number-7',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1536816579748-4ecb3f03d72a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Gambar Langkah-langkah',
-    }}
-  />
-
-  <FAQs
-    title="Tanya Jawab Seputar Harga"
-    subtitle="Memilih paket yang tepat itu penting, dan kami di sini untuk menjawab pertanyaan Anda."
-    columns={1}
-    items={[
-      {
-        title: 'Apakah setiap paket sudah termasuk dukungan pelanggan?',
-        description:
-          'Tentu saja, semua paket menyertakan akses ke dukungan pelanggan khusus kami untuk membantu kendala atau pertanyaan Anda.',
-      },
-      {
-        title: 'Apakah ada periode uji coba untuk paket yang berbeda?',
-        description:
-          'Sayangnya, kami tidak menawarkan masa uji coba. Namun, Anda dapat melihat bagian demo kami untuk meninjau kualitas templat kami.',
-      },
-      {
-        title: 'Dapatkah saya berpindah antar paket?',
-        description:
-          'Tentu saja! Anda dapat dengan mudah meningkatkan atau menurunkan paket Anda kapan saja sesuai kebutuhan Anda yang berkembang.',
-      },
-      {
-        title: 'Metode pembayaran apa yang Anda terima?',
-        description:
-          'Kami menerima kartu kredit utama dan metode pembayaran daring untuk memastikan proses transaksi yang nyaman dan aman.',
-      },
-      {
-        title: 'Apakah ada biaya tersembunyi selain harga yang tertera?',
-        description:
-          'Tidak, biaya langganan sudah mencakup semua fitur dan templat yang terdaftar di bawah setiap paket. Tidak ada biaya tambahan.',
-      },
-    ]}
-  />
-
-  <CallToAction
-    title="Siap meningkatkan proyek Anda?"
-    subtitle="Bergabunglah dengan komunitas pelanggan kami yang puas dan telah mentransformasi karya mereka dengan templat kami."
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Mulai sekarang juga',
-        href: '/',
-      },
-    ]}
-  />
-</Layout>
+      hasRibbon: true,
+      ribbonTitle: 'populer',
+    },
+  ]}
+/>
