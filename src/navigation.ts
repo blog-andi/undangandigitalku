@@ -99,7 +99,7 @@ export const footerData = {
         { text: 'Resources', href: '#' },
       ],
     },
- ],
+  ],
   secondaryLinks: [
     { text: 'Terms', href: getPermalink('/terms') },
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
