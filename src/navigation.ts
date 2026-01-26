@@ -64,10 +64,6 @@ export const headerData = {
           href: getPermalink('kelebihan-undangan-digital-dibanding-undangan-cetak', 'post'),
         },
         {
-          text: 'Article (with MDX)',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
-        },
-        {
           text: 'Category Page',
           href: getPermalink('tutorials', 'category'),
         },
