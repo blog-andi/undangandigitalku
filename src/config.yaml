@@ -11,7 +11,7 @@ metadata:
   title:
     default: Undangan Digital Pekanbaru
     template: '%s — Undangan Digital Pekanbaru'
-  description: "\U0001F680 Jasa Undangan Digital Pekanbaru - Elegan, Cepat, dan Murah. Buat undangan link pernikahanmu dalam hitungan menit. Cek promo hari ini!k."
+  description: "\U0001F680 Jasa Undangan Digital Pekanbaru - Elegan, Cepat, dan Murah. Buat undangan link pernikahanmu dalam hitungan menit. Cek promo hari ini!"
   robots:
     index: false
     follow: false

@@ -1,5 +1,5 @@
 {
-  "name": "@onwidget/astrowind",
+  "name": "undangan-digital-pekanbaru",
   "version": "1.0.0-beta.52",
   "description": "AstroWind: A free template using Astro 5.0 and Tailwind CSS. Astro starter theme.",
   "type": "module",
@@ -28,7 +28,7 @@
     "@astrolib/analytics": "^0.6.1",
     "@astrolib/seo": "^1.0.0-beta.8",
     "@fontsource-variable/inter": "^5.2.6",
-    "astro": "^5.12.9",
+    "astro": "^5.16.15",
     "astro-embed": "^0.9.0",
     "astro-icon": "^1.1.5",
     "limax": "4.1.0",

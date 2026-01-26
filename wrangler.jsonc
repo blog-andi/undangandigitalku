@@ -1,6 +1,6 @@
 {
 	"main": "dist/_worker.js/index.js",
-	"name": "@onwidget/astrowind",
+	"name": "undangan-digital-pekanbaru",
   "compatibility_date": "2026-01-26",
   "compatibility_flags": [
     "nodejs_compat",
