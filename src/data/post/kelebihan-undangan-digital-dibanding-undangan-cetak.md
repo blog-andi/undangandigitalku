@@ -3,7 +3,7 @@ publishDate: 2023-08-12T00:00:00Z
 author: Admin UndanganKu
 title: Kelebihan Undangan Digital Dibanding Undangan Cetak
 excerpt: Temukan alasan mengapa warga Pekanbaru mulai beralih ke undangan digital yang lebih hemat dan elegan.
-image: /images/undangan-online-murah-di-riau.webp
+image: "/images/undangan-online-murah-di-riau.webp"
 category: Edukasi
 tags:
   - Undangan Digital
