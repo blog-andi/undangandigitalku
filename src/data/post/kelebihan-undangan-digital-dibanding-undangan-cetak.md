@@ -3,7 +3,7 @@ publishDate: 2023-08-12T00:00:00Z
 author: John Smith
 title: Kelebihan Undangan Digital Dibanding Undangan Cetak
 excerpt: Kelebihan Undangan Digital Dibanding Undangan Cetak.
-image: https://images/undangan-online-murah-di-riau.webp
+image: /images/undangan-online-murah-di-riau.webp
 category: Tutorials
 tags:
   - astro
