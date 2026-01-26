@@ -1,11 +1,7 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
-
 import { defineConfig } from 'astro/config';
-
-// --- TAMBAHKAN IMPORT INI ---
 import cloudflare from '@astrojs/cloudflare';
-
 import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
@@ -13,12 +9,8 @@ import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
 import compress from 'astro-compress';
 import type { AstroIntegration } from 'astro';
-
 import astrowind from './vendor/integration';
-
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin, lazyImagesRehypePlugin } from './src/utils/frontmatter';
-
-import cloudflare from '@astrojs/cloudflare';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -29,10 +21,10 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 export default defineConfig({
   output: 'static',
 
-  // --- TAMBAHKAN ADAPTER INI ---
   adapter: cloudflare({
     imageService: 'cloudflare',
-  
+  }),
+
   integrations: [
     tailwind({
       applyBaseStyles: false,
@@ -96,6 +88,4 @@ export default defineConfig({
       },
     },
   },
-
-  adapter: cloudflare(),
 });
