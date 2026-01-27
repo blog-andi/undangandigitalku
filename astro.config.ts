@@ -22,7 +22,7 @@ export default defineConfig({
   // 1. NAMA SITE KAMU (Wajib untuk Sitemap & SEO)
   site: 'https://undangandigitalpekanbaru.web.id',
 
-  output: 'hybrid',
+  output: 'static',
 
   adapter: cloudflare({
     imageService: 'cloudflare',
