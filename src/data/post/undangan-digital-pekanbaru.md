@@ -3,10 +3,10 @@ publishDate: 2026-01-24T00:00:00Z
 title: Undangan digital pekanbaru.
 excerpt: Undangan digital pekanbaru adalah jenis website undangan pernikahan dalam bentuk link.
 image: ~/assets/images/undangan-digital-pekanbaru.webp
-category: Undangan Digital
+category: tutorials
 tags:
   - undangan digital
-  - undangan digital pekanbaru
+  - pekanbaru
 ---
 
 ## Undangan Website di Pekanbaru, Siap Sebar dalam Hitungan Jam!

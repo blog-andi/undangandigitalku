@@ -3,7 +3,7 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Pages',
+      text: 'Katalog',
       links: [
         {
           text: 'Undangan Pernikahan',
@@ -53,7 +53,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Reading',
+      text: 'Artikel',
       links: [
         {
           text: 'Blog List',
@@ -61,7 +61,7 @@ export const headerData = {
         },
         {
           text: 'Article',
-          href: getPermalink('kelebihan-undangan-digital-dibanding-undangan-cetak', 'post'),
+          href: getPermalink('undangan-digital-pekanbaru', 'post'),
         },
         {
           text: 'Category Page',
