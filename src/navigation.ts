@@ -3,7 +3,7 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Katalog',
+      text: 'Pages',
       links: [
         {
           text: 'Undangan Pernikahan',
@@ -56,20 +56,28 @@ export const headerData = {
       text: 'Artikel',
       links: [
         {
-          text: 'Blog List',
+          text: 'Semua Artikel',
           href: getBlogPermalink(),
         },
         {
-          text: 'Article',
+          text: 'Artikel Utama',
           href: getPermalink('undangan-digital-pekanbaru', 'post'),
         },
         {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
+          text: 'Kategori: Blog',
+          href: getPermalink('blog', 'category'),
         },
         {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
+          text: 'Tag: Undangan Digital',
+          href: getPermalink('undangan-digital', 'tag'),
+        },
+        {
+          text: 'Tag: Pernikahan',
+          href: getPermalink('pernikahan', 'tag'),
+        },
+        {
+          text: 'Tag: Pekanbaru',
+          href: getPermalink('pekanbaru', 'tag'),
         },
       ],
     },
@@ -101,11 +109,10 @@ export const footerData = {
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
+    { ariaLabel: 'WhatsApp', icon: 'tabler:brand-whatsapp', href: 'https://wa.me/6289519865963' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://undangandigitalpekanbaru.web.id' },
   ],
   footNote: `
     Made by <a class="text-blue-600 underline dark:text-muted" href="https://undangandigitalpekanbaru.web.id"> Undangan Digital Pekanbaru</a> · All rights reserved.
