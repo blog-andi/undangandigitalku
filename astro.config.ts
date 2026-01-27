@@ -19,6 +19,9 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 export default defineConfig({
+  // 1. NAMA SITE KAMU (Wajib untuk Sitemap & SEO)
+  site: 'https://undangandigitalpekanbaru.web.id',
+
   output: 'hybrid',
 
   adapter: cloudflare({
