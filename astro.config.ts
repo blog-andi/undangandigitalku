@@ -19,7 +19,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 export default defineConfig({
-  output: 'static',
+  output: 'hybrid',
 
   adapter: cloudflare({
     imageService: 'cloudflare',
@@ -35,14 +35,8 @@ export default defineConfig({
       include: {
         tabler: ['*'],
         'flat-color-icons': [
-          'template',
-          'gallery',
-          'approval',
-          'document',
-          'advertising',
-          'currency-exchange',
-          'voice-presentation',
-          'business-contact',
+          'template', 'gallery', 'approval', 'document', 'advertising',
+          'currency-exchange', 'voice-presentation', 'business-contact',
           'database',
         ],
       },
