@@ -1,24 +1,32 @@
-# build output
+# Build output
 dist/
 .output/
+out/
 
-# dependencies
+# Dependencies
 node_modules/
 
-# logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Logs
+*-debug.log*
+*-error.log*
 pnpm-debug.log*
 
-
-# environment variables
+# Environment variables (Sangat Penting!)
 .env
+.env*.local
 .env.production
+!.env.example # Jangan ignore file contoh/template
 
 # macOS-specific files
 .DS_Store
+Thumbs.db
 
-pnpm-lock.yaml
+# Astro specific
+.astro/
 
-.astro
+# IDE - VS Code & IntelliJ
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Versi pnpm-lock.yaml dihapus dari sini supaya masuk ke Git
