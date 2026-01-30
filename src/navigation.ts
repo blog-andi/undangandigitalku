@@ -94,24 +94,23 @@ export const footerData = {
     {
       title: 'Product',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        { text: 'Undangan Pernikahan', href: 'https://undangandigitalpekanbaru.web.id/tema/undangan-pernikahan' },
+        { text: 'Undangan Aqikah', href: 'http://undangandigitalpekanbaru.web.id/tema/undangan-aqikah' },
+        { text: 'Undangan Ulang Tahun', href: 'http://undangandigitalpekanbaru.web.id/tema/undangan-ulang-tahun' },
+        { text: 'Undangan Khitanan', href: 'http://undangandigitalpekanbaru.web.id/tema/undangan-khitanan' },
       ],
     },
   ],
   secondaryLinks: [
+    { text: 'About', href: getPermalink('/about') },
+    { text: 'Contact', href: getPermalink('/contact') },
     { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
+    { text: 'Privacy Policy', href: getPermalink('/privacy') },    
   ],
   socialLinks: [
+    { ariaLabel: 'WhatsApp', icon: 'tabler:brand-whatsapp', href: 'https://wa.me/6289519865963' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'WhatsApp', icon: 'tabler:brand-whatsapp', href: 'https://wa.me/6289519865963' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
   footNote: `
