@@ -8,30 +8,20 @@ import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
 import compress from 'astro-compress';
-import type { AstroIntegration } from 'astro';
 import astrowind from './vendor/integration';
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin, lazyImagesRehypePlugin } from './src/utils/frontmatter';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const hasExternalScripts = false;
-const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroIntegration)[] = []) =>
-  hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
-
 export default defineConfig({
-  // 1. NAMA SITE KAMU (Wajib untuk Sitemap & SEO)
   site: 'https://undangandigitalpekanbaru.web.id',
-
   output: 'static',
 
-  adapter: cloudflare({
-    imageService: 'cloudflare',
-  }),
+  // PERBAIKAN DI SINI: Kita pakai adapter cloudflare standar tanpa memaksa imageService eksternal
+  adapter: cloudflare(),
 
   integrations: [
-    tailwind({
-      applyBaseStyles: false,
-    }),
+    tailwind({ applyBaseStyles: false }),
     sitemap(),
     mdx(),
     icon({
@@ -44,32 +34,20 @@ export default defineConfig({
         ],
       },
     }),
-
-    ...whenExternalScripts(() =>
-      partytown({
-        config: { forward: ['dataLayer.push'] },
-      })
-    ),
-
     compress({
       CSS: true,
-      HTML: {
-        'html-minifier-terser': {
-          removeAttributeQuotes: false,
-        },
-      },
-      Image: false,
+      HTML: { 'html-minifier-terser': { removeAttributeQuotes: false } },
+      Image: false, // Biarkan Astro yang urus gambar
       JavaScript: true,
       SVG: false,
       Logger: 1,
     }),
-
-    astrowind({
-      config: './src/config.yaml',
-    }),
+    astrowind({ config: './src/config.yaml' }),
   ],
 
   image: {
+    // PERBAIKAN DI SINI: Gunakan 'sharp' (standar Astro) agar gambar diproses saat build, bukan saat runtime
+    service: { entrypoint: 'astro/assets/services/sharp' },
     domains: ['cdn.pixabay.com'],
   },
 
