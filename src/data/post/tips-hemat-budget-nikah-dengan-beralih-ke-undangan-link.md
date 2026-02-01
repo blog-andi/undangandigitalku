@@ -67,7 +67,7 @@ Jangan asal pilih template. Pastikan **desain undangan elegan** dengan **musik l
 
 ### Cara Menyusun Kata-kata Undangan yang Sopan namun Akrab
 
-Gunakan bahasa yang hangat. Meskipun digital, sapaan tetap harus personal. Gunakan fitur _custom name_ sehingga link yang dikirim berbunyi: `undangan.link/Budi-dan-Ani?to=NamaTamu`. Ini memberikan kesan bahwa mereka memang sangat diharapkan kehadirannya, bukan sekadar _broadcast_ massal.
+Gunakan bahasa yang hangat. Meskipun digital, sapaan tetap harus personal. Gunakan fitur _custom name_ sehingga link yang dikirim. Ini memberikan kesan bahwa mereka memang sangat diharapkan kehadirannya, bukan sekadar _broadcast_ massal.
 
 ----------
 
@@ -90,9 +90,6 @@ Kami di Undangan Digital Pekanbaru memahami kebutuhan _budak-budak_ Riau. Kami m
 
 **Siap buat undangan digitalmu sekarang?** Konsultasi GRATIS dengan tim kami yang sudah berpengalaman membantu ribuan pengantin di Riau:
 
--   **WhatsApp 1:** [wa.me/6289519865963](https://www.google.com/search?q=https://wa.me/6289519865963)
+-   **WhatsApp 1:** [wa.me/6289519865963](https://wa.me/6289519865963)
     
--   **WhatsApp 2:** [wa.me/62895401308267](https://www.google.com/search?q=https://wa.me/62895401308267)
-    
-
-Kunjungi katalog desain terbaru kami di: [https://undangandigitalPekanbaru.web.id](https://undangandigitalPekanbaru.web.id)
+-   **WhatsApp 2:** [wa.me/62895401308267](https://wa.me/62895401308267)   

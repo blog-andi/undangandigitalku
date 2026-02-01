@@ -93,9 +93,11 @@ Kami melayani area **Panam, Marpoyan, Rumbai, Gobah, Simpang Tiga, serta kabupat
 
 Memilih **Pakaian Adat Melayu Modern untuk Pengantin Riau** adalah perjalanan emosional untuk menghargai diri dan keluarga. Dengan mengikuti panduan di atas—mulai dari riset bahan **Tenun Siak**, pemilihan warna yang tren di 2026, hingga pemilihan aksesori seperti **Tanjak**—Anda sudah satu langkah lebih dekat menuju pernikahan impian yang **elok nan menawan**.
 
-Jangan biarkan momen sekali seumur hidup Anda terlewat tanpa persiapan yang matang. Jika Anda butuh konsultasi lebih lanjut mengenai vendor atau ingin dibuatkan konsep pernikahan yang terintegrasi, jangan ragu untuk menghubungi tim ahli kami.
+Mengenakan busana adat Melayu memang penting. Tapi pakaian indah dan sakral itu kurang maksimal jika tidak diabadikan secara visual dengan media digital. Anda dapat menampilkan visualisasi busana adat anda secara online dengan menggunakan undangan digital. Itulah  [Manfaat Fitur Gallery Photo dan Video Dalam Undangan Online](https://undangandigitalpekanbaru.web.id/manfaat-fitur-gallery-photo-dan-video-dalam-undangan-online)
 
 **Hubungi Kami Sekarang untuk Konsultasi Gratis:**
+
+Jangan biarkan momen sekali seumur hidup Anda terlewat tanpa persiapan yang matang. Jika Anda butuh konsultasi lebih lanjut mengenai vendor atau ingin dibuatkan konsep pernikahan yang terintegrasi, jangan ragu untuk menghubungi tim ahli kami.
 
 -   WhatsApp 1: [wa.me/6289519865963](https://www.google.com/search?q=https://wa.me/6289519865963)
     
@@ -109,34 +111,3 @@ _Tak Kan Melayu Hilang di Bumi!_ Segera amankan tanggal pernikahan Anda dan tamp
 **Internal Link:** Jangan lupa lengkapi kebahagiaan Anda dengan undangan digital elegan di [https://undangandigitalPekanbaru.web.id](https://undangandigitalPekanbaru.web.id).
 
 ----------
-## Authors
-
-- [@octokatherine](https://www.github.com/octokatherine)
-
-
-## API Reference
-
-#### Get all items
-
-```http
-  GET /api/items
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
-
-#### Get item
-
-```http
-  GET /api/items/${id}
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
-
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
-
