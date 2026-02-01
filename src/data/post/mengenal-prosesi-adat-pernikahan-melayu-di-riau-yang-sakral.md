@@ -105,28 +105,22 @@ Suapan Pertama: Biasanya, pengantin akan saling menyuapi. Ini adalah simbol nafk
 
 Ujian Kesabaran: Tata cara yang diatur (seperti tidak boleh terburu-buru dan menjaga etika di depan orang tua) melambangkan pengendalian diri dalam rumah tangga.
 
-## Persiapan Logistik Pernikahan Adat di Riau (Pekanbaru & Sekitarnya)
+### Mengetahui Beberap Tips & Tata Cara Perkawinan di Riau
 
-Menyiapkan pernikahan dengan **Budaya Riau** yang kental membutuhkan ketelitian. Anda harus memastikan vendor dekorasi paham perbedaan corak antara Melayu Siak, Kampar, atau Indragiri. Tips Navigasi Logistik: Memastikan Hari Bahagia Berjalan "Lawa" dan Beradat
-Menyiapkan pernikahan di Pekanbaru itu unik. Kita tidak hanya bicara soal gedung dan makanan, tapi soal menjaga martabat dan tradisi agar tetap tegak. Berikut adalah beberapa hal yang perlu kamu perhatikan dengan hati:
+Kesakralan setiap tahapan adat Melayu tentu membutuhkan fokus yang tinggi dari kedua belah pihak keluarga. Agar konsentrasi Anda tidak terbagi dengan urusan administratif tamu yang ribet, Anda bisa menyerahkannya pada teknologi dengan [mengenal fitur rsvp otomatis pada undangan digital](https://undangandigitalpekanbaru.web.id/mengenal-fitur-rsvp-otomatis-pada-undangan-digital) yang praktis dan akurat.
 
-Pilih Vendor yang "Paham Luar Dalam": Jangan cuma tergiur foto estetik di Instagram. Pastikan vendor dekorasimu punya jiwa. Kalau kamu pakai adat Kampar, pastikan mereka tahu filosofi pemasangan Lelang (hiasan langit-langit). Jangan sampai hiasan yang seharusnya sakral malah dipasang asal-asalan hanya demi visual. Tanya mereka, "Pernah pasang dekorasi spesifik daerah ini sebelumnya?"
+Menjalankan rangkaian prosesi adat yang lengkap sering kali membutuhkan alokasi dana yang tidak sedikit. Sebagai solusinya, Anda dapat mengimbangi pengeluaran tersebut dengan menyimak [tips hemat budget nikah dengan beralih ke undangan link](https://undangandigitalpekanbaru.web.id/tips-hemat-budget-nikah-dengan-beralih-ke-undangan-link) tanpa mengurangi kemewahan makna pernikahan Anda.
 
-Tepak Sirih Adalah "Napas" Acara: Tepak sirih bukan sekadar properti foto yang diletakkan di meja. Dia adalah pembuka pintu komunikasi. Kamu butuh satu orang khusus—mungkin sepupu atau asisten yang cekatan—untuk memastikan isinya lengkap: daun sirihnya segar (tidak layu), ada pinang, gambir, dan kapurnya. Bayangkan betapa canggungnya saat prosesi penyambutan, tapi "paspor" adat ini isinya kosong.
+Setiap gerak dalam prosesi adat akan menjadi pusat perhatian, sehingga pemilihan busana menjadi hal yang sangat krusial. Pastikan Anda tetap terlihat anggun dan berwibawa dengan mempelajari [tips memilih pakaian adat Melayu modern untuk pengantin Riau](https://undangandigitalpekanbaru.web.id/tips-memilih-pakaian-adat-melayu-modern-untuk-pengantin-riau) yang tetap menghormati pakem tradisional.
 
-Beri Ruang untuk Dentum Kompang: Grup Kompang itu butuh ruang bernapas agar iramanya bisa menggetarkan hati. Saat survey gedung di Pekanbaru, cek area masuknya. Jangan sampai tim Kompang berhimpitan dengan tamu yang baru datang atau terhalang pilar. Irama yang stabil lahir dari ruang gerak yang lega; mereka butuh jalan yang lapang untuk mengiringi langkahmu menuju pelaminan.
+Pesta pernikahan adat Melayu tidak akan lengkap tanpa jamuan yang mencerminkan rasa syukur dan kedermawanan. Untuk menyempurnakan nuansa tradisional di hari bahagia, pastikan Anda menyajikan [daftar makanan wajib dalam hidangan pernikahan khas Riau](https://undangandigitalpekanbaru.web.id/daftar-makanan-wajib-dalam-hidangan-pernikahan-khas-riau) yang menjadi kegemaran para tamu.
 
-Tanjak dan Sanggul Bukan Sekadar Aksesori: Ini soal identitas. Lipatan Tanjak bagi pengantin pria itu punya cerita—ada maknanya, ada strata sosialnya. Jangan asal ikat. Begitu juga dengan sanggul dan sunting. Pastikan penata busanamu mengerti pakem daerah asalnya. Kita tidak mau ada tetua yang berbisik di belakang hanya karena bentuk tanjak yang "menyimpang" dari aturan adat, kan?
-
-### Memilih Vendor yang Paham Pakem Adat
-
-Jangan asal pilih! Pastikan vendor Anda mengerti detail **Seserahan** dan tata letak pelaminan yang benar. Untuk urusan dokumentasi dan penyebaran informasi, di zaman serba digital ini, penggunaan teknologi sangat membantu.
-
-### Pentingnya Undangan Digital untuk Efisiensi
+Momen sakral saat ritual adat berlangsung sangat layak untuk didokumentasikan dan dibagikan kembali kepada tamu yang tidak hadir secara langsung. Anda dapat memanfaatkan [manfaat fitur gallery photo dan video dalam undangan online](https://undangandigitalpekanbaru.web.id/manfaat-fitur-gallery-photo-dan-video-dalam-undangan-online) untuk memperlihatkan cuplikan video adat yang penuh makna.
 
 Bagi Anda yang memiliki keluarga besar tersebar di **Rokan Hilir, Kuantan Singingi, hingga Kepulauan Meranti**, mengirim undangan fisik tentu memakan waktu. Saya sangat menyarankan penggunaan undangan digital yang tetap elegan dan bisa menyisipkan unsur musik Melayu atau foto prewedding berpakaian adat.
 
-Untuk solusi undangan digital yang praktis dan profesional di Riau, Anda bisa mengunjungi: [https://undangandigitalPekanbaru.web.id](https://undangandigitalPekanbaru.web.id).
+Bagi Anda yang ingin mengabarkan berita bahagia ini kepada kerabat luas di Riau, sangat penting untuk memilih media undangan yang representatif. Layanan [undangan digital Pekanbaru](https://undangandigitalpekanbaru.web.id/undangan-digital-pekanbaru) menawarkan solusi elegan yang mampu memuat informasi detail prosesi adat Anda dalam satu genggaman.
+
 ----------
 
 ### F.A.Q (Pertanyaan yang Sering Diajukan)
@@ -152,37 +146,3 @@ Jangan biarkan kerumitan persiapan menghalangi kebahagiaan Anda. Jika Anda butuh
 📞 Hubungi via WhatsApp: [wa.me/6289519865963](https://wa.me/6289519865963) atau [wa.me/62895401308267](https://wa.me/62895401308267)
 
 _Suko hati_ kami membantu Anda mewujudkan pernikahan impian yang _rancak bana_ dan penuh berkah di Bumi Lancang Kuning ini!
-
-
-
-## Authors
-
-- [@octokatherine](https://www.github.com/octokatherine)
-
-
-## API Reference
-
-#### Get all items
-
-```http
-  GET /api/items
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
-
-#### Get item
-
-```http
-  GET /api/items/${id}
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
-
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
-
