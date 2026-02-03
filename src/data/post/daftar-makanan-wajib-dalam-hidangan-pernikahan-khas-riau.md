@@ -77,12 +77,7 @@ Menyusun **Daftar Makanan Wajib dalam Hidangan Pernikahan Khas Riau** adalah inv
 
 Ingat, persiapan yang matang mencerminkan kasih sayang Anda kepada pasangan dan keluarga. Jangan sampai salah langkah dalam memilih vendor katering dan kebutuhan pernikahan lainnya.
 
-**Konsultasikan Kebutuhan Pernikahan Anda Bersama Kami:**
 
--   WhatsApp Tim Admin 1: [wa.me/6289519865963](https://www.google.com/search?q=https://wa.me/6289519865963)
-    
--   WhatsApp Tim Admin 2: [wa.me/62895401308267](https://www.google.com/search?q=https://wa.me/62895401308267)
-    
 
 **Ayo, buat pesta pernikahan Anda jadi perbincangan paling positif tahun ini!** Jangan lupa kunjungi juga: [https://undangandigitalPekanbaru.web.id](https://undangandigitalPekanbaru.web.id) untuk solusi undangan praktis dan modern.
 
