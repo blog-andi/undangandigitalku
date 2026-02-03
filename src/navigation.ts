@@ -27,31 +27,7 @@ export const headerData = {
         },
       ],
     },
-    {
-      text: 'Menu',
-      links: [
-        {
-          text: 'Pricing',
-          href: getPermalink('/landing/pricing'),
-        },
-        {
-          text: 'About',
-          href: getPermalink('/landing/about'),
-        },
-        {
-          text: 'Contact',
-          href: getPermalink('/landing/contact'),
-        },
-        {
-          text: 'Privacy',
-          href: getPermalink('/landing/privacy'),
-        },
-        {
-          text: 'Terms',
-          href: getPermalink('/landing/terms'),
-        },
-      ],
-    },
+    /* Bagian "Menu" sudah dihapus dari sini */
     {
       text: 'Artikel',
       links: [
@@ -105,7 +81,7 @@ export const footerData = {
     { text: 'About', href: getPermalink('/about') },
     { text: 'Contact', href: getPermalink('/contact') },
     { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },    
+    { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
     { ariaLabel: 'WhatsApp', icon: 'tabler:brand-whatsapp', href: 'https://wa.me/6289519865963' },
