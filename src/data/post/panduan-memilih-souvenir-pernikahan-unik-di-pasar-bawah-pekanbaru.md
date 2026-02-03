@@ -2,16 +2,16 @@
 publishDate: 2026-02-03T00:00:00Z
 title: Panduan Memilih Souvenir Pernikahan Unik Di Pasar Bawah Pekanbaru
 excerpt: Undangan digital pekanbaru adalah jenis website undangan pernikahan dalam bentuk link.
-image: ~/assets/images/tips-memilih-pakaian-adat-melayu-modern-untuk-pengantin-riau.webp
-author: undangan digital pekanbaru 089519865963
+image: ~/assets/images/panduan-memilih-souvenir-pernikahan-unik-di-pasar-bawah-pekanbaru.webp
+author: "Muhammad Harun"
 category: blog
 tags:
- - undangan-digital
- - pekanbaru
- - pernikahan
+  - undangan-digital
+  - pekanbaru
+  - pernikahan
 ---
 
-# Panduan Memilih Souvenir Pernikahan Unik Di Pasar Bawah Pekanbaru
+## Panduan Memilih Souvenir Pernikahan Unik Di Pasar Bawah Pekanbaru
 
 Menyiapkan pesta pernikahan di Kota Bertuah ini memang punya cerita tersendiri. Sebagai orang yang sering berkecimpung di dunia **WO Pekanbaru**, saya sering melihat calon pengantin yang *tegang urat leher* saat memikirkan budget yang membengkak. Salah satu elemen yang paling menyedot perhatian—dan juga dana—adalah **souvenir pernikahan**. Kita semua ingin memberikan sesuatu yang **unik**, tidak dibuang begitu saja ke tempat sampah, tapi tetap ramah di kantong.
 

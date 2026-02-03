@@ -2,17 +2,17 @@
 publishDate: 2026-02-03T00:00:00Z
 title: 10 Rekomendasi Gedung & Hotel untuk Resepsi Pernikahan di Pekanbaru
 excerpt: Mencari tempat resepsi yang bedelau di Pekanbaru? Simak 10 rekomendasi gedung dan hotel terbaik lengkap dengan tips budget dan fasilitasnya.
-image: ~/assets/images/tips-hemat-budget-nikah-dengan-beralih-ke-undangan-link.webp
-author: undangan digital pekanbaru 089519865963
+image: ~/assets/images/rekomendasi-gedung-&-hotel-untuk-resepsi-pernikahan-di-pekanbaru.webp
+author: "Muhammad Harun"
 category: blog
 tags:
- - gedung-pernikahan
- - hotel-pekanbaru
- - venue-riau
- - undangan-digital
+  - gedung-pernikahan
+  - hotel-pekanbaru
+  - venue-riau
+  - undangan-digital
 ---
 
-# 10 Rekomendasi Gedung & Hotel untuk Resepsi Pernikahan di Pekanbaru
+## 10 Rekomendasi Gedung & Hotel untuk Resepsi Pernikahan di Pekanbaru
 
 Menentukan **tempat resepsi** di Pekanbaru itu gampang-gampang susah. *Onde mande*, kalau salah pilih, bisa-bisa tamu kita kepanasan atau malah parkirnya macet sampai ke jalan raya. Saya tahu betul rasanya menjadi calon pengantin yang harus mutar-mutar di sepanjang Jalan Sudirman atau Jalan Riau cuma buat tanya harga **sewa aula**. 
 

@@ -3,6 +3,7 @@ publishDate: 2026-01-31T00:00:00Z
 title: Tips Hemat Budget Nikah dengan Beralih ke Undangan Link
 excerpt: Tips Hemat Budget Nikah dengan Beralih ke Undangan Link. 089519865963
 image: ~/assets/images/tips-hemat-budget-nikah-dengan-beralih-ke-undangan-link.webp
+author: "Muhammad Harun"
 category: blog
 tags:
   - undangan digital

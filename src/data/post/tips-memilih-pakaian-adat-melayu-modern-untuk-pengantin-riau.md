@@ -3,6 +3,7 @@ publishDate: 2026-01-29T00:00:00Z
 title: Tips Memilih Pakaian Adat Melayu Modern untuk Pengantin Riau
 excerpt: Tips Memilih Pakaian Adat Melayu Modern untuk Pengantin Riau. 089519865963
 image: ~/assets/images/tips-memilih-pakaian-adat-melayu-modern-untuk-pengantin-riau.webp
+author: "Muhammad Harun"
 category: blog
 tags:
   - undangan digital

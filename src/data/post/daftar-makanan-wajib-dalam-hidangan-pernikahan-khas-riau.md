@@ -3,6 +3,7 @@ publishDate: 2026-01-26T00:00:00Z
 title: Daftar Makanan Wajib dalam Hidangan Pernikahan Khas Riau
 excerpt: Daftar Makanan Wajib dalam Hidangan Pernikahan Khas Riau.089519865963
 image: ~/assets/images/daftar-makanan-wajib-dalam-hidangan-pernikahan-khas-riau.webp
+author: "Muhammad Harun"
 category: blog
 tags:
   - undangan digital

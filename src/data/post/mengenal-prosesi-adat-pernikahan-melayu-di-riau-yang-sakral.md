@@ -3,6 +3,7 @@ publishDate: 2026-01-31T00:00:00Z
 title: Mengenal Prosesi Adat Pernikahan Melayu Riau yang Sakral
 excerpt: Mengenal Prosesi Adat Pernikahan Melayu Riau yang Sakral. 089519865963
 image: ~/assets/images/mengenal-prosesi-adat-pernikahan-melayu-di-riau-yang-sakral.webp
+author: "Muhammad Harun"
 category: blog
 tags:
   - undangan digital

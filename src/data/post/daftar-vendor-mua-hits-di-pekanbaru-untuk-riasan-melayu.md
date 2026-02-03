@@ -2,16 +2,16 @@
 publishDate: 2026-01-23T00:00:00Z
 title: Daftar Vendor MUA Hits di Pekanbaru untuk Riasan Melayu
 excerpt: Sedang mencari penata rias viral untuk pernikahan? Simak daftar vendor MUA hits di Pekanbaru spesialis riasan Melayu yang bikin tampilan Anda bedelau.
-image: ~/assets/images/review-hotel-grand-jantra-pekanbaru-untuk-wedding-package.webp
-author: undangan digital pekanbaru 089519865963
+image: ~/assets/images/daftar-vendor-mua-hits-di-pekanbaru-untuk-riasan-melayu.webp
+author: "Muhammad Harun"
 category: blog
 tags:
- - mua-pekanbaru
- - riasan-melayu
- - pernikahan-riau
+  - mua-pekanbaru
+  - riasan-melayu
+  - pernikahan-riau
 ---
 
-# Daftar Vendor MUA Hits di Pekanbaru untuk Riasan Melayu
+## Daftar Vendor MUA Hits di Pekanbaru untuk Riasan Melayu
 
 Menjadi pengantin adalah momen sekali seumur hidup yang impiannya sudah dibangun sejak lama. Bagi kita **budak Pekanbaru**, pernikahan bukan sekadar pesta, tapi sebuah penghormatan terhadap adat. Saya tahu betul rasanya, saat Anda mulai pusing mencari mana **penata rias viral** yang bisa menyulap wajah menjadi ratu sehari namun tetap terlihat "Melayu banget". 
 
