@@ -58,7 +58,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Nanya2 Dulu',
+      text: 'Konsultasi WA',
       href: 'https://wa.me/6289519865963',
     },
   ],

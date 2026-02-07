@@ -13,7 +13,7 @@ tags:
 
 ## Tips Memilih Pakaian Adat Melayu Modern untuk Pengantin Riau
 
-Cara memilih **Pakaian Adat Melayu Modern untuk Pengantin Riau** yang tetap elegan, nyaman, dan tentunya _stunning_ saat diabadikan dalam foto pernikahan. Kita akan membedah mulai dari pemilihan bahan **Tenun Siak**, modifikasi potongannya, hingga pemilihan aksesori yang pas agar Anda tampil **lawa sangat** di hari bahagia. Pakaian adat adalah doa yang dijahit menjadi kain. Di artikel ini, Anda akan mempelajari 
+Cara memilih **Pakaian Adat Melayu Modern untuk Pengantin Riau** yang tetap elegan, nyaman, dan tentunya _stunning_ saat diabadikan dalam foto pernikahan. Kita akan membedah mulai dari pemilihan bahan **Tenun Siak**, modifikasi potongannya, hingga pemilihan aksesori yang pas agar Anda tampil **lawa sangat** di hari bahagia. Pakaian adat adalah doa yang dijahit menjadi kain. Di artikel ini, Anda akan mempelajari .
 
 ----------
 
